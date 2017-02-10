@@ -13,6 +13,15 @@ images {
 images {
   image: "/background/ring_planet.png"
 }
+images {
+  image: "/background/tlo2.png"
+}
+images {
+  image: "/background/babeczka.png"
+}
+images {
+  image: "/background/dragon.png"
+}
 margin: 0
 extrude_borders: 1
 inner_padding: 0

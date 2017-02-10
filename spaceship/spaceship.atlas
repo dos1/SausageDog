@@ -1,3 +1,6 @@
+images {
+  image: "/spaceship/sausagedog.png"
+}
 animations {
   id: "spin"
   images {

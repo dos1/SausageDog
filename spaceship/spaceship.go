@@ -62,7 +62,7 @@ embedded_components {
   id: "sprite"
   type: "sprite"
   data: "tile_set: \"/spaceship/spaceship.atlas\"\n"
-  "default_animation: \"spin\"\n"
+  "default_animation: \"sausagedog\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""

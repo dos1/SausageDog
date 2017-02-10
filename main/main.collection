@@ -5,7 +5,7 @@ instances {
   position {
     x: 1312.0
     y: 360.0
-    z: 0.5
+    z: 0.1
   }
   rotation {
     x: 0.0
@@ -85,7 +85,7 @@ instances {
   position {
     x: 370.1839
     y: 219.59415
-    z: 0.1
+    z: 0.3
   }
   rotation {
     x: 0.0
@@ -105,7 +105,7 @@ instances {
   position {
     x: 1522.288
     y: 58.73095
-    z: 0.1
+    z: 0.3
   }
   rotation {
     x: 0.0
@@ -134,8 +134,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 1.0
-    y: 1.0
+    x: 0.3
+    y: 0.3
     z: 1.0
   }
 }
@@ -146,7 +146,7 @@ embedded_instances {
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/background/background.atlas\\\"\\n"
-  "default_animation: \\\"bg\\\"\\n"
+  "default_animation: \\\"tlo2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -176,7 +176,7 @@ embedded_instances {
   }
   scale3 {
     x: 1.0
-    y: 1.0
+    y: 0.7
     z: 1.0
   }
 }
