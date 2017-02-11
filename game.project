@@ -1,5 +1,6 @@
 [project]
-title = Side-scroller
+title = Sausage Dog Run
+version = 0.1
 
 [bootstrap]
 main_collection = /main/main.collectionc
