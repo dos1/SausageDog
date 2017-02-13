@@ -1,0 +1,62 @@
+name: "default"
+instances {
+  id: "bonus_star"
+  prototype: "/stars/bonus_star.go"
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bonus_star1"
+  prototype: "/stars/bonus_star.go"
+  position {
+    x: 3102.8708
+    y: 1473.8636
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bonus_star2"
+  prototype: "/stars/bonus_star.go"
+  position {
+    x: 1563.7166
+    y: 607.175
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+scale_along_z: 0

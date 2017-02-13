@@ -1,5 +1,5 @@
 local frequency = 0.5
-local bonus_prob = 0.2
+local bonus_prob = 0.5
 local min_y = 60
 local max_y = 600
 
@@ -17,8 +17,9 @@ function update(self, dt)
 		p.y = vmath.lerp(math.random(), min_y, max_y)
 		local component = "#star_factory"
 		if math.random() < bonus_prob then
-			-- component = "#bonus_factory"
+			component = "#bonus_factory"
 		end
-		factory.create(component, p)
+		local spawn = factory.create(component, p)
+		print(spawn)
 	end
 end
