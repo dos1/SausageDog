@@ -1,7 +1,7 @@
 name: "parallax"
 instances {
   id: "factory"
-  prototype: "/stars/factory.go"
+  prototype: "/sushi/factory.go"
   position {
     x: 1312.0
     y: 360.0
@@ -20,8 +20,8 @@ instances {
   }
 }
 instances {
-  id: "large_planets1"
-  prototype: "/background/large_planets.go"
+  id: "bg_alpha"
+  prototype: "/background/bg_alpha_scroll.go"
   position {
     x: 0.0
     y: 0.0
@@ -34,29 +34,9 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 0.666
-    y: 0.666
+    x: 0.766
+    y: 0.866
     z: 1.0
-  }
-}
-instances {
-  id: "large_planets2"
-  prototype: "/background/large_planets.go"
-  position {
-    x: 2408.0
-    y: 0.0
-    z: 0.2
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.666
-    y: 0.666
-    z: 0.666
   }
 }
 instances {
@@ -80,8 +60,8 @@ instances {
   }
 }
 instances {
-  id: "spaceship"
-  prototype: "/spaceship/spaceship.go"
+  id: "sausage_dog"
+  prototype: "/sausage_dog/sausage_dog.go"
   position {
     x: 209.66061
     y: 400.0

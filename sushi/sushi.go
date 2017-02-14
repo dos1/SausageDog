@@ -1,6 +1,6 @@
 components {
   id: "script"
-  component: "/stars/star.script"
+  component: "/sushi/sushi.script"
   position {
     x: 0.0
     y: 0.0
@@ -61,8 +61,8 @@ embedded_components {
 embedded_components {
   id: "sprite"
   type: "sprite"
-  data: "tile_set: \"/stars/stars.atlas\"\n"
-  "default_animation: \"sushi\"\n"
+  data: "tile_set: \"/sushi/sushi.atlas\"\n"
+  "default_animation: \"sushi_sprite\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""

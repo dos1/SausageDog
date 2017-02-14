@@ -1,10 +1,10 @@
-local speed = -240
+local speed = -440
 local score = -5
 
 function update(self, dt)
 	local p = go.get_position()
 	p.x = p.x + speed * dt
-	if p.x < -32 then
+	if p.x < -92 then
 		go.delete()
 	end
 	go.set_position(p)
@@ -13,7 +13,7 @@ end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash("collision_response") then
-		if message.other_id == hash("/spaceship") then
+		if message.other_id == hash("/sausage_dog") then
 			msg.post("main#gui", "add_score", {amount = score})
 			go.delete()
 		end

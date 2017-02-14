@@ -1,6 +1,6 @@
 components {
   id: "script"
-  component: "/background/small_planets.script"
+  component: "/background/bg_alpha_scroll.script"
   position {
     x: 0.0
     y: 0.0
@@ -14,42 +14,42 @@ components {
   }
 }
 embedded_components {
-  id: "sprite4"
+  id: "sprite"
   type: "sprite"
   data: "tile_set: \"/background/background.atlas\"\n"
-  "default_animation: \"dragon\"\n"
+  "default_animation: \"bg_alpha\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 249.6802
-    y: 307.51465
+    x: 1795.2421
+    y: 573.94073
     z: 0.0
   }
   rotation {
     x: 0.0
     y: 0.0
-    z: -0.70710677
-    w: 0.70710677
+    z: 0.0
+    w: 1.0
   }
 }
 embedded_components {
-  id: "sprite5"
+  id: "sprite1"
   type: "sprite"
   data: "tile_set: \"/background/background.atlas\"\n"
-  "default_animation: \"dragon\"\n"
+  "default_animation: \"bg_alpha\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 3193.7415
-    y: 1298.4958
+    x: 5327.05
+    y: 577.03876
     z: 0.0
   }
   rotation {
     x: 0.0
     y: 0.0
-    z: -0.70710677
-    w: 0.70710677
+    z: 0.0
+    w: 1.0
   }
 }

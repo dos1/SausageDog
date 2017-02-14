@@ -1,26 +1,11 @@
 images {
-  image: "/background/bg.png"
+  image: "/background/bg_alpha.png"
 }
 images {
-  image: "/background/earthlike_planet.png"
+  image: "/background/geisha_alpha.png"
 }
 images {
-  image: "/background/gas_planet.png"
-}
-images {
-  image: "/background/ice_planet.png"
-}
-images {
-  image: "/background/ring_planet.png"
-}
-images {
-  image: "/background/tlo2.png"
-}
-images {
-  image: "/background/babeczka.png"
-}
-images {
-  image: "/background/dragon.png"
+  image: "/background/dragon_alpha.png"
 }
 margin: 0
 extrude_borders: 1

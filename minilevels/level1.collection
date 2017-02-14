@@ -1,10 +1,70 @@
 name: "default"
 instances {
-  id: "bonus_star"
-  prototype: "/stars/bonus_star.go"
+  id: "enemy_alpha"
+  prototype: "/minilevels/enemy_alpha_dragon.go"
   position {
+    x: 3098.4888
+    y: 1203.8953
+    z: 0.0
+  }
+  rotation {
     x: 0.0
     y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.5
+    y: 0.5
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha1"
+  prototype: "/minilevels/enemy_alpha_dragon.go"
+  position {
+    x: 1590.383
+    y: 615.02344
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.5
+    y: 0.5
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha2"
+  prototype: "/minilevels/enemy_alpha_dragon.go"
+  position {
+    x: 340.92688
+    y: 188.2563
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.5
+    y: 0.5
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha_geisha"
+  prototype: "/minilevels/enemy_alpha_geisha.go"
+  position {
+    x: 780.8397
+    y: 914.65576
     z: 0.0
   }
   rotation {
@@ -20,11 +80,11 @@ instances {
   }
 }
 instances {
-  id: "bonus_star1"
-  prototype: "/stars/bonus_star.go"
+  id: "enemy_alpha_geisha1"
+  prototype: "/minilevels/enemy_alpha_geisha.go"
   position {
-    x: 3102.8708
-    y: 1473.8636
+    x: 1947.5947
+    y: 821.4928
     z: 0.0
   }
   rotation {
@@ -40,11 +100,11 @@ instances {
   }
 }
 instances {
-  id: "bonus_star2"
-  prototype: "/stars/bonus_star.go"
+  id: "enemy_alpha_geisha2"
+  prototype: "/minilevels/enemy_alpha_geisha.go"
   position {
-    x: 1563.7166
-    y: 607.175
+    x: 1224.4728
+    y: 102.80727
     z: 0.0
   }
   rotation {
