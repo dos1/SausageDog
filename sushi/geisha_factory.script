@@ -1,10 +1,10 @@
 local frequency = 0.5
-local bonus_prob = 0.25
+local bonus_prob = 0.015
 local min_y = 70
 local max_y = 560
 
 function init(self)
-	self.timer = 0.5/frequency
+	self.timer = 0.33/frequency
 	-- make the game deterministic
 	math.randomseed(0)
 end
@@ -12,12 +12,12 @@ end
 function update(self, dt)
 	self.timer = self.timer - dt
 	if self.timer <= 0 then
-		self.timer = 0.5/frequency
+		self.timer = 0.33/frequency
 		local p = go.get_position()
 		p.y = vmath.lerp(math.random(), min_y, max_y)
 		local component = "#sushi_factory"
 		if math.random() > bonus_prob then
-			component = "#dragon_factory"		
+			component = "#geisha_factory"		
 		end
 		local spawn = factory.create(component, p)
 		print(spawn)

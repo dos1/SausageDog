@@ -60,6 +60,66 @@ instances {
   }
 }
 instances {
+  id: "enemy_alpha3"
+  prototype: "/minilevels/enemy_alpha_dragon.go"
+  position {
+    x: 284.70004
+    y: 814.5946
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.5
+    y: 0.5
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha4"
+  prototype: "/minilevels/enemy_alpha_dragon.go"
+  position {
+    x: 1551.2822
+    y: 1251.2642
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.5
+    y: 0.5
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha5"
+  prototype: "/minilevels/enemy_alpha_dragon.go"
+  position {
+    x: 3050.4849
+    y: 283.09445
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.5
+    y: 0.5
+    z: 1.0
+  }
+}
+instances {
   id: "enemy_alpha_geisha"
   prototype: "/minilevels/enemy_alpha_geisha.go"
   position {

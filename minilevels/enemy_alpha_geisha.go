@@ -1,6 +1,6 @@
 components {
   id: "script"
-  component: "/minilevels/enemy_alpha.script"
+  component: "/minilevels/geisha_enemy_alpha.script"
   position {
     x: 0.0
     y: 0.0

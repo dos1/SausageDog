@@ -1,5 +1,25 @@
 name: "parallax"
 instances {
+  id: "bg_alpha"
+  prototype: "/background/bg_alpha_scroll.go"
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.766
+    y: 0.866
+    z: 1.0
+  }
+}
+instances {
   id: "factory"
   prototype: "/sushi/factory.go"
   position {
@@ -20,12 +40,12 @@ instances {
   }
 }
 instances {
-  id: "bg_alpha"
-  prototype: "/background/bg_alpha_scroll.go"
+  id: "geisha_factory"
+  prototype: "/sushi/geisha_factory.go"
   position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
+    x: 1337.9811
+    y: 548.01184
+    z: 0.5
   }
   rotation {
     x: 0.0
@@ -34,8 +54,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 0.766
-    y: 0.866
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
@@ -74,8 +94,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 0.3
-    y: 0.3
+    x: 0.2
+    y: 0.2
     z: 1.0
   }
 }

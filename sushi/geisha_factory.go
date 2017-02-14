@@ -1,6 +1,6 @@
 components {
   id: "script"
-  component: "/sushi/factory.script"
+  component: "/sushi/geisha_factory.script"
   position {
     x: 0.0
     y: 0.0
