@@ -1,4 +1,4 @@
-local frequency = 5 -- todo: should be dependent on game speed
+local frequency = 55 -- todo: should be dependent on game speed
 
 function init(self)
 	self.timer = 0
