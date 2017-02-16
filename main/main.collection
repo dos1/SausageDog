@@ -20,31 +20,11 @@ instances {
   }
 }
 instances {
-  id: "factory"
-  prototype: "/sushi/factory.go"
+  id: "factory_minilevels"
+  prototype: "/minilevels/factory_minilevels.go"
   position {
-    x: 1312.0
-    y: 360.0
-    z: 0.1
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "geisha_factory"
-  prototype: "/sushi/geisha_factory.go"
-  position {
-    x: 1337.9811
-    y: 548.01184
+    x: 2727.8376
+    y: 498.3741
     z: 0.5
   }
   rotation {

@@ -1,0 +1,20 @@
+local frequency = 5 -- todo: should be dependent on game speed
+
+function init(self)
+	self.timer = 0
+	-- make the game deterministic
+	math.randomseed(0)
+end
+
+function update(self, dt)
+	self.timer = self.timer - dt
+	if self.timer <= 0 then
+		self.timer = frequency
+		local p = go.get_position()
+		p.x = 1280
+		p.y = 0
+		local component = "#level1factory"
+		local spawn = collectionfactory.create(component, p)
+	end
+	
+end
