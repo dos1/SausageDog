@@ -1,4 +1,17 @@
-local frequency = 55 -- todo: should be dependent on game speed
+local delay = 0 -- todo: should be dependent on game speed
+
+local levels = {
+	{
+		name = "#level1factory",
+		delay = 8
+	}, {
+		name = "#level2factory",
+		delay = 10
+	}, {
+		name = "#level3factory",
+		delay = 9
+	}
+}
 
 function init(self)
 	self.timer = 0
@@ -8,13 +21,18 @@ end
 
 function update(self, dt)
 	self.timer = self.timer - dt
-	if self.timer <= 0 then
-		self.timer = frequency
+	print(self.timer)
+	if self.timer < 0 then
+		self.timer = delay
 		local p = go.get_position()
 		p.x = 1280
 		p.y = 0
-		local component = "#level1factory"
+		local level = levels[math.random(#levels)]
+		print(level["name"])
+		local component = level["name"]
+		delay = level["delay"]
 		local spawn = collectionfactory.create(component, p)
+		print(delay)
 	end
 	
 end
