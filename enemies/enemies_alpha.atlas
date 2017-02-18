@@ -1,0 +1,18 @@
+images {
+  image: "/enemies/png_alpha_enemies/geisha_alpha.png"
+}
+images {
+  image: "/enemies/png_alpha_enemies/dragon_alpha.png"
+}
+images {
+  image: "/enemies/png_alpha_enemies/dragon_alpha_2.png"
+}
+images {
+  image: "/enemies/png_alpha_enemies/samurai_alpha.png"
+}
+images {
+  image: "/enemies/png_alpha_enemies/sumo_alpha.png"
+}
+margin: 0
+extrude_borders: 1
+inner_padding: 0

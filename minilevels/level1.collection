@@ -1,10 +1,10 @@
 name: "default"
 instances {
-  id: "enemy_alpha1"
-  prototype: "/minilevels/enemy_alpha_dragon.go"
+  id: "dragon_enemy_alpha"
+  prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 2016.5707
-    y: 546.2835
+    x: 2258.2117
+    y: 531.9332
     z: 0.0
   }
   rotation {
@@ -14,17 +14,17 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 0.5
-    y: 0.5
+    x: 2.0
+    y: 1.0
     z: 1.0
   }
 }
 instances {
-  id: "enemy_alpha2"
-  prototype: "/minilevels/enemy_alpha_dragon.go"
+  id: "dragon_enemy_alpha1"
+  prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 340.92688
-    y: 188.2563
+    x: 1094.4507
+    y: 531.9332
     z: 0.0
   }
   rotation {
@@ -34,17 +34,17 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 0.5
-    y: 0.5
+    x: 2.0
+    y: 1.0
     z: 1.0
   }
 }
 instances {
-  id: "enemy_alpha3"
-  prototype: "/minilevels/enemy_alpha_dragon.go"
+  id: "dragon_enemy_alpha2"
+  prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 874.6924
-    y: 512.5251
+    x: 473.77808
+    y: 210.103
     z: 0.0
   }
   rotation {
@@ -54,14 +54,14 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 0.5
-    y: 0.5
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
 instances {
   id: "enemy_alpha_geisha2"
-  prototype: "/minilevels/enemy_alpha_geisha.go"
+  prototype: "/enemies/geisha_enemy_alpha.go"
   position {
     x: 1224.4728
     y: 102.80727
@@ -81,7 +81,7 @@ instances {
 }
 instances {
   id: "enemy_alpha_geisha3"
-  prototype: "/minilevels/enemy_alpha_geisha.go"
+  prototype: "/enemies/geisha_enemy_alpha.go"
   position {
     x: 1632.1437
     y: 105.59088
@@ -101,7 +101,7 @@ instances {
 }
 instances {
   id: "enemy_alpha_geisha4"
-  prototype: "/minilevels/enemy_alpha_geisha.go"
+  prototype: "/enemies/geisha_enemy_alpha.go"
   position {
     x: 1447.3843
     y: 115.1802
@@ -121,7 +121,7 @@ instances {
 }
 instances {
   id: "enemy_alpha_geisha5"
-  prototype: "/minilevels/enemy_alpha_geisha.go"
+  prototype: "/enemies/geisha_enemy_alpha.go"
   position {
     x: 3739.3542
     y: 429.3372
@@ -141,7 +141,7 @@ instances {
 }
 instances {
   id: "enemy_alpha_geisha6"
-  prototype: "/minilevels/enemy_alpha_geisha.go"
+  prototype: "/enemies/geisha_enemy_alpha.go"
   position {
     x: 3550.7397
     y: 441.1889
@@ -161,7 +161,7 @@ instances {
 }
 instances {
   id: "enemy_alpha_geisha7"
-  prototype: "/minilevels/enemy_alpha_geisha.go"
+  prototype: "/enemies/geisha_enemy_alpha.go"
   position {
     x: 3176.1914
     y: 415.77356
@@ -181,7 +181,7 @@ instances {
 }
 instances {
   id: "enemy_alpha_geisha8"
-  prototype: "/minilevels/enemy_alpha_geisha.go"
+  prototype: "/enemies/geisha_enemy_alpha.go"
   position {
     x: 3366.0635
     y: 426.857

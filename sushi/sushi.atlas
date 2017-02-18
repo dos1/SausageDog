@@ -1,3 +1,6 @@
 images {
-  image: "/sushi/sushi_sprite.png"
+  image: "/sushi/png_alpha_sushi/sushi_sprite.png"
+}
+images {
+  image: "/sushi/png_alpha_sushi/sushi_alpha2.png"
 }

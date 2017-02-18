@@ -10,6 +10,9 @@ local levels = {
 	}, {
 		name = "#level3factory",
 		delay = 9
+	}, {
+		name = "#level4factory",
+		delay = 9
 	}
 }
 

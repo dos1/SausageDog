@@ -1,5 +1,5 @@
 local frequency = 0.5
-local bonus_prob = 0.25
+local bonus_prob = 0.5
 local min_y = 70
 local max_y = 560
 

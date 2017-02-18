@@ -16,8 +16,7 @@ components {
 embedded_components {
   id: "dragon_factory"
   type: "factory"
-  data: "prototype: \"/minilevels/enemy_alpha_dragon.go\"\n"
-  ""
+  data: "prototype: \"/enemies/dragon_enemy_alpha.go\"\n"
   position {
     x: 0.0
     y: 0.0
@@ -33,8 +32,7 @@ embedded_components {
 embedded_components {
   id: "geisha_factory"
   type: "factory"
-  data: "prototype: \"/minilevels/enemy_alpha_geisha.go\"\n"
-  ""
+  data: "prototype: \"/enemies/geisha_enemy_alpha.go\"\n"
   position {
     x: 0.0
     y: 0.0
@@ -51,7 +49,6 @@ embedded_components {
   id: "sushi_factory"
   type: "factory"
   data: "prototype: \"/sushi/sushi.go\"\n"
-  ""
   position {
     x: 0.0
     y: 0.0

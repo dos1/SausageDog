@@ -2,10 +2,7 @@ images {
   image: "/background/bg_alpha.png"
 }
 images {
-  image: "/background/geisha_alpha.png"
-}
-images {
-  image: "/background/dragon_alpha.png"
+  image: "/background/bg_alpha2.png"
 }
 margin: 0
 extrude_borders: 1

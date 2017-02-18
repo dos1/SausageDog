@@ -1,13 +1,14 @@
-local score = 1
-local speed = -180
+local speed = -460
+local score = -5
 
 function update(self, dt)
 	local p = go.get_position()
 	p.x = p.x + speed * dt
-	if p.x < -32 then
+	if p.x < -92 then
 		go.delete()
 	end
 	go.set_position(p)
+	go.set_scale(0.2,0.2,0.2)
 end
 
 function on_message(self, message_id, message, sender)
