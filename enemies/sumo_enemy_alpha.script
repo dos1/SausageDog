@@ -1,4 +1,4 @@
-local speed = -240
+local speed = -370
 local score = -5
 
 function update(self, dt)

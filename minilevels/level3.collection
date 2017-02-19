@@ -1,10 +1,150 @@
 name: "default"
 instances {
+  id: "enemy_alpha_geisha00"
+  prototype: "/enemies/geisha_enemy_alpha.go"
+  position {
+    x: 78.91647
+    y: 75.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha_geisha01"
+  prototype: "/enemies/geisha_enemy_alpha.go"
+  position {
+    x: 137.79993
+    y: 525.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha_geisha02"
+  prototype: "/enemies/geisha_enemy_alpha.go"
+  position {
+    x: 458.88907
+    y: 375.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha_geisha04"
+  prototype: "/enemies/geisha_enemy_alpha.go"
+  position {
+    x: 1834.8569
+    y: 375.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha_geisha05"
+  prototype: "/enemies/geisha_enemy_alpha.go"
+  position {
+    x: 2213.1035
+    y: 575.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha_geisha06"
+  prototype: "/enemies/geisha_enemy_alpha.go"
+  position {
+    x: 2209.6394
+    y: 225.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha_geisha09"
+  prototype: "/enemies/geisha_enemy_alpha.go"
+  position {
+    x: 2568.1375
+    y: 375.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
   id: "enemy_alpha_geisha10"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 2933.4536
-    y: 649.99976
+    x: 2568.1375
+    y: 75.0
     z: 0.0
   }
   rotation {
@@ -23,8 +163,8 @@ instances {
   id: "enemy_alpha_geisha11"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 2555.207
-    y: 373.1063
+    x: 2828.4827
+    y: 225.0
     z: 0.0
   }
   rotation {
@@ -40,111 +180,11 @@ instances {
   }
 }
 instances {
-  id: "enemy_alpha_geisha12"
-  prototype: "/enemies/geisha_enemy_alpha.go"
-  position {
-    x: 2929.9895
-    y: 114.22061
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "enemy_alpha_geisha2"
-  prototype: "/enemies/geisha_enemy_alpha.go"
-  position {
-    x: 727.7492
-    y: 111.97017
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "enemy_alpha_geisha3"
-  prototype: "/enemies/geisha_enemy_alpha.go"
-  position {
-    x: 1107.7218
-    y: 396.35266
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "enemy_alpha_geisha4"
-  prototype: "/enemies/geisha_enemy_alpha.go"
-  position {
-    x: 752.15656
-    y: 632.1444
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "enemy_alpha_geisha9"
-  prototype: "/enemies/geisha_enemy_alpha.go"
-  position {
-    x: 3288.4875
-    y: 401.46277
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "sumo_enemy_alpha"
+  id: "sumo_enemy_alpha0"
   prototype: "/enemies/sumo_enemy_alpha.go"
   position {
-    x: 1390.0918
-    y: 207.67592
+    x: 271.67975
+    y: 140.0
     z: 0.0
   }
   rotation {
@@ -163,8 +203,8 @@ instances {
   id: "sumo_enemy_alpha1"
   prototype: "/enemies/sumo_enemy_alpha.go"
   position {
-    x: 1968.8785
-    y: 606.6137
+    x: 907.289
+    y: 440.0
     z: 0.0
   }
   rotation {

@@ -8,7 +8,7 @@ function update(self, dt)
 		go.delete()
 	end
 	go.set_position(p)
-	go.set_scale(0.25,0.25,0.25)
+	go.set_scale(0.4,0.4,0.4)
 end
 
 function on_message(self, message_id, message, sender)

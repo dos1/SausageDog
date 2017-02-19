@@ -6,13 +6,19 @@ local levels = {
 		delay = 8
 	}, {
 		name = "#level2factory",
-		delay = 10
+		delay = 7
 	}, {
 		name = "#level3factory",
 		delay = 9
 	}, {
 		name = "#level4factory",
 		delay = 9
+	}, {
+		name = "#level5factory",
+		delay = 8
+	}, {
+		name = "#level6factory",
+		delay = 10
 	}
 }
 

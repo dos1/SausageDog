@@ -1,7 +1,7 @@
-local frequency = 0.5
-local bonus_prob = 0.5
-local min_y = 70
-local max_y = 560
+local frequency = 0.20
+local bonus_prob = 0.20
+local min_y = 60
+local max_y = 520
 
 function init(self)
 	self.timer = 0.5/frequency

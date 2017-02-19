@@ -64,7 +64,7 @@ embedded_components {
   id: "sprite"
   type: "sprite"
   data: "tile_set: \"/enemies/enemies_alpha.atlas\"\n"
-  "default_animation: \"dragon_alpha\"\n"
+  "default_animation: \"dragon_alpha_3\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
@@ -74,9 +74,9 @@ embedded_components {
     z: 0.0
   }
   rotation {
-    x: 0.70710677
-    y: 0.70710677
-    z: 4.3297803E-17
-    w: 4.3297803E-17
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
   }
 }
