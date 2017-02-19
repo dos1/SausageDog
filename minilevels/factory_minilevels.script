@@ -1,4 +1,4 @@
-local delay = 0 -- todo: should be dependent on game speed
+local delay = 8 -- todo: should be dependent on game speed
 
 local levels = {
 	{
@@ -19,6 +19,12 @@ local levels = {
 	}, {
 		name = "#level6factory",
 		delay = 10
+	}, {
+		name = "#level7factory",
+		delay = 9
+	}, {
+		name = "#level8factory",
+		delay = 9
 	}
 }
 
