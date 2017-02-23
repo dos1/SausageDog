@@ -9,7 +9,7 @@ while line:
     y = float(f.readline().split(':')[1])
     print '    x: ' + str(x*1920/1280)
     print '    y: ' + str(y*1080/720)
-  if line == '  scale {\n':
+  if line == '  scale3 {\n':
     f.readline()
     f.readline()
     print '    x: 1.0'
