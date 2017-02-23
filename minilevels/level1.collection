@@ -3,8 +3,8 @@ instances {
   id: "dragon_enemy_alpha1"
   prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 977.7444
-    y: 375.0
+    x: 1466.6166
+    y: 562.5
     z: 0.0
   }
   rotation {
@@ -23,8 +23,8 @@ instances {
   id: "dragon_enemy_alpha2"
   prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 1587.7744
-    y: 225.0
+    x: 2381.6616
+    y: 337.5
     z: 0.0
   }
   rotation {
@@ -43,8 +43,8 @@ instances {
   id: "dragon_enemy_alpha3"
   prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 2087.7744
-    y: 75.0
+    x: 3131.6616
+    y: 112.5
     z: 0.0
   }
   rotation {
@@ -63,8 +63,8 @@ instances {
   id: "dragon_enemy_alpha4"
   prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 1887.7744
-    y: 375.0
+    x: 2831.6616
+    y: 562.5
     z: 0.0
   }
   rotation {
@@ -83,8 +83,8 @@ instances {
   id: "dragon_enemy_alpha5"
   prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 3381.8784
-    y: 75.0
+    x: 5072.8176
+    y: 112.5
     z: 0.0
   }
   rotation {
@@ -103,8 +103,8 @@ instances {
   id: "dragon_enemy_alpha6"
   prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 3581.8784
-    y: 375.0
+    x: 5372.8176
+    y: 562.5
     z: 0.0
   }
   rotation {
@@ -123,8 +123,8 @@ instances {
   id: "dragon_enemy_alpha7"
   prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 3381.8784
-    y: 525.0
+    x: 5072.8176
+    y: 787.5
     z: 0.0
   }
   rotation {
@@ -143,8 +143,8 @@ instances {
   id: "enemy_alpha_geisha0"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 117.0
-    y: 75.0
+    x: 175.5
+    y: 112.5
     z: 0.0
   }
   rotation {
@@ -163,8 +163,8 @@ instances {
   id: "enemy_alpha_geisha1"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 340.55646
-    y: 75.0
+    x: 510.83469
+    y: 112.5
     z: 0.0
   }
   rotation {
@@ -183,8 +183,8 @@ instances {
   id: "enemy_alpha_geisha10"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 2832.5264
-    y: 225.0
+    x: 4248.7896
+    y: 337.5
     z: 0.0
   }
   rotation {
@@ -203,8 +203,8 @@ instances {
   id: "enemy_alpha_geisha2"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 525.31586
-    y: 75.0
+    x: 787.97379
+    y: 112.5
     z: 0.0
   }
   rotation {
@@ -223,8 +223,8 @@ instances {
   id: "enemy_alpha_geisha3"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 2069.3635
-    y: 225.0
+    x: 3104.04525
+    y: 337.5
     z: 0.0
   }
   rotation {
@@ -243,8 +243,8 @@ instances {
   id: "enemy_alpha_geisha4"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 2259.2356
-    y: 375.0
+    x: 3388.8534
+    y: 562.5
     z: 0.0
   }
   rotation {
@@ -263,8 +263,8 @@ instances {
   id: "enemy_alpha_geisha5"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 2443.9119
-    y: 75.0
+    x: 3665.86785
+    y: 112.5
     z: 0.0
   }
   rotation {
@@ -283,8 +283,8 @@ instances {
   id: "enemy_alpha_geisha8"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 2632.5264
-    y: 525.0
+    x: 3948.7896
+    y: 787.5
     z: 0.0
   }
   rotation {
@@ -303,8 +303,8 @@ instances {
   id: "enemy_alpha_geisha9"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 3032.5264
-    y: 375.0
+    x: 4548.7896
+    y: 562.5
     z: 0.0
   }
   rotation {
