@@ -31,7 +31,7 @@ local levels = {
 function init(self)
 	self.timer = 0
 	-- make the game deterministic
-	math.randomseed(0)
+	-- math.randomseed(0)
 end
 
 function update(self, dt)
@@ -40,7 +40,7 @@ function update(self, dt)
 	if self.timer < 0 then
 		self.timer = delay
 		local p = go.get_position()
-		p.x = 1280
+		p.x = 1920
 		p.y = 0
 		local level = levels[math.random(#levels)]
 		print(level["name"])

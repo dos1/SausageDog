@@ -3,8 +3,8 @@ instances {
   id: "bg_alpha"
   prototype: "/background/bg_alpha_scroll.go"
   position {
-    x: 4.486113
-    y: -35.888905
+    x: 0.0
+    y: 0.0
     z: 0.0
   }
   rotation {
@@ -14,8 +14,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 0.766
-    y: 0.7
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }

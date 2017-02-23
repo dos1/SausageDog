@@ -5,8 +5,8 @@ function update(self, dt)
 	-- apply the speed
 	p.x = p.x + speed * dt
 	-- reset clouds to far right when they reach the far left to create infinite scrolling
-	if p.x <= -2400 * 2 * 0.666 then
-		p.x = 1 * 2 * 0.666
+	if p.x <= -1920 * 2 then
+		p.x = 0
 	end
 	go.set_position(p)
 end
