@@ -36,7 +36,7 @@ end
 
 function update(self, dt)
 	self.timer = self.timer - dt
-	print(self.timer)
+	--print(self.timer)
 	if self.timer < 0 then
 		self.timer = delay
 		local p = go.get_position()
@@ -47,7 +47,7 @@ function update(self, dt)
 		local component = level["name"]
 		delay = level["delay"]
 		local spawn = collectionfactory.create(component, p)
-		print(delay)
+		--print(delay)
 	end
 	
 end
