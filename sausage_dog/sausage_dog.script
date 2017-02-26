@@ -1,6 +1,6 @@
-local max_speed = 450
+local max_speed = 650
 local min_y = 100
-local max_y = 730
+local max_y = 820
 local tracks = 4
 
 function init(self)

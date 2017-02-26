@@ -1,32 +1,11 @@
 images {
-  image: "/enemies/png_alpha_enemies/geisha_alpha.png"
-}
-images {
-  image: "/enemies/png_alpha_enemies/dragon_alpha.png"
-}
-images {
-  image: "/enemies/png_alpha_enemies/dragon_alpha_2.png"
-}
-images {
-  image: "/enemies/png_alpha_enemies/samurai_alpha.png"
-}
-images {
-  image: "/enemies/png_alpha_enemies/sumo_alpha.png"
-}
-images {
-  image: "/enemies/png_alpha_enemies/dragon_alpha_2bis.png"
-}
-images {
-  image: "/enemies/png_alpha_enemies/dragon_alpha_3.png"
-}
-images {
-  image: "/enemies/png_beta_enemies/geisha_beta.png"
-}
-images {
   image: "/enemies/png_beta_enemies/sausage_beta.png"
 }
 images {
   image: "/enemies/png_beta_enemies/sumo_beta.png"
+}
+images {
+  image: "/enemies/png_beta_enemies/geisha_beta_mala.png"
 }
 margin: 0
 extrude_borders: 1
