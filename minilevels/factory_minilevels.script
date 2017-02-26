@@ -17,25 +17,24 @@ function init(self)
 	-- math.randomseed(0)
 end
 
-function update(self, dt)
-	local spawn = true
-
-	if self.current then
-		for key,value in pairs(self.current) do 
-			if value then
-				--print(key, value)
-				if go.get_position(value).x <= 1500 then
-					self.current[key] = nil
-				else
-					spawn = false
-				end
+function on_message(self, message_id, message, sender)
+	if message_id == hash("enemy_added") then
+		table.insert(self.enemies, sender)
+	end
+	if message_id == hash("enemy_removed") then
+		for i=1, #self.enemies do
+			if self.enemies[i]==sender then
+				table.remove(self.enemies, i)
+				break
 			end
 		end
 	end
-		
-		
-	--print(self.timer)
-	if spawn then
+	if message_id == hash("restart") then
+		self.current_pool = 1
+		self.counter = 0
+		self.history = {}
+	end
+	if message_id == hash("spawn") then
 		local p = go.get_position()
 		p.x = 1920
 		p.y = 0
@@ -64,7 +63,6 @@ function update(self, dt)
 		local component = level
 		local list = collectionfactory.create(component, p)
 		self.current = list
-		--print(delay)
+		--print(delay)	
 	end
-	
 end

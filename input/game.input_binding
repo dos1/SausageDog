@@ -14,6 +14,10 @@ key_trigger {
   input: KEY_RIGHT
   action: "right"
 }
+key_trigger {
+  input: KEY_SPACE
+  action: "space"
+}
 gamepad_trigger {
   input: GAMEPAD_LPAD_UP
   action: "up"
