@@ -24,7 +24,7 @@ function update(self, dt)
 		for key,value in pairs(self.current) do 
 			if value then
 				--print(key, value)
-				if go.get_position(value).x <= 1920 then
+				if go.get_position(value).x <= 1500 then
 					self.current[key] = nil
 				else
 					spawn = false

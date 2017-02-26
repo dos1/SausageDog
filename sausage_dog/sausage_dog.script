@@ -1,4 +1,4 @@
-local max_speed = 650
+local speed = 650
 local min_y = 100
 local max_y = 820
 local tracks = 4
@@ -18,12 +18,12 @@ function update(self, dt)
 	local p = go.get_position()
 	local desired = min_y + ((max_y - min_y) / (tracks-1)) * self.cur_track
 	if p.y > desired then
-		p.y = p.y - max_speed * dt
+		p.y = p.y - (speed + GLOBAL_SPEED) * dt
 		if p.y < desired then
 			p.y = desired
 		end
 	elseif p.y < desired then
-		p.y = p.y + max_speed * dt
+		p.y = p.y + (speed + GLOBAL_SPEED) * dt
 		if p.y > desired then
 			p.y = desired
 		end
@@ -35,10 +35,8 @@ function on_input(self, action_id, action)
 	if action.pressed then
 		if action_id == hash("up") then
 			self.cur_track = self.cur_track + 1
-			self.speed = max_speed
 		elseif action_id == hash("down") then
 			self.cur_track = self.cur_track - 1
-			self.speed = -max_speed
 		end
 	end
 	
@@ -47,10 +45,8 @@ function on_input(self, action_id, action)
         if action.touch[1].pressed then
         	if action.touch[1].y > 1080/2 then
 				self.cur_track = self.cur_track + 1
-				self.speed = max_speed
 			else
 				self.cur_track = self.cur_track - 1
-				self.speed = -max_speed
 			end
         end
     end
