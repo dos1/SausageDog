@@ -1,11 +1,11 @@
 
 local LEVELS = {
-	{ "#level1factory", "#level2factory", "#level3factory" },
-	{ "#level4factory", "#level5factory", "#level6factory" },
-	{ "#level7factory", "#level8factory" }
+	{ "#level_a1factory", "#level_a2factory", "#level_a3factory", "#level_a4factory", "#level_a5factory", "#level_a6factory" },
+	{ "#level_b1factory", "#level_b2factory", "#level_b3factory", "#level_b4factory", "#level_b5factory", "#level_b6factory", "#level_s1factory"  },
+	{ "#level_c1factory", "#level_c2factory", "#level_c3factory"  }
 }
 
-local LEVELS_TO_UNLOCK_POOL = 6
+local LEVELS_TO_UNLOCK_POOL = 5
 	
 
 function init(self)

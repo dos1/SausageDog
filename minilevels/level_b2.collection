@@ -1,0 +1,162 @@
+name: "default"
+instances {
+  id: "samurai_enemy_alpha00"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 975.0
+    y: 805.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha01"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1400.0
+    y: 575.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha02"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 975.0
+    y: 345.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha03"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 975.0
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha1"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1829.528
+    y: 805.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha2"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 2260.4548
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha3"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1834.2231
+    y: 575.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha4"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1845.5378
+    y: 345.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+scale_along_z: 0

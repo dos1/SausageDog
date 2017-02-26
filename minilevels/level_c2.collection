@@ -4,7 +4,7 @@ instances {
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
     x: 150.0
-    y: 337.5
+    y: 345.0
     z: 0.0
   }
   rotation {
@@ -24,7 +24,7 @@ instances {
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
     x: 600.0
-    y: 112.5
+    y: 115.0
     z: 0.0
   }
   rotation {
@@ -44,7 +44,7 @@ instances {
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
     x: 1050.0
-    y: 337.5
+    y: 345.0
     z: 0.0
   }
   rotation {
@@ -64,7 +64,7 @@ instances {
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
     x: 1500.0
-    y: 112.5
+    y: 115.0
     z: 0.0
   }
   rotation {
@@ -84,7 +84,7 @@ instances {
   prototype: "/enemies/samurai_enemy_alpha.go"
   position {
     x: 2121.6143
-    y: 337.5
+    y: 345.0
     z: 0.0
   }
   rotation {
@@ -104,7 +104,7 @@ instances {
   prototype: "/enemies/samurai_enemy_alpha.go"
   position {
     x: 2571.6143
-    y: 112.5
+    y: 115.0
     z: 0.0
   }
   rotation {
@@ -124,7 +124,7 @@ instances {
   prototype: "/enemies/samurai_enemy_alpha.go"
   position {
     x: 3021.6143
-    y: 337.5
+    y: 345.0
     z: 0.0
   }
   rotation {
@@ -144,7 +144,7 @@ instances {
   prototype: "/enemies/samurai_enemy_alpha.go"
   position {
     x: 3471.6143
-    y: 112.5
+    y: 115.0
     z: 0.0
   }
   rotation {
@@ -164,7 +164,7 @@ instances {
   prototype: "/enemies/sumo_enemy_alpha.go"
   position {
     x: 225.0
-    y: 660.0
+    y: 685.0
     z: 0.0
   }
   rotation {
@@ -184,7 +184,7 @@ instances {
   prototype: "/enemies/sumo_enemy_alpha.go"
   position {
     x: 600.0
-    y: 669.20135
+    y: 685.0
     z: 0.0
   }
   rotation {
@@ -204,7 +204,7 @@ instances {
   prototype: "/enemies/sumo_enemy_alpha.go"
   position {
     x: 1425.0
-    y: 660.0
+    y: 685.0
     z: 0.0
   }
   rotation {
@@ -224,7 +224,7 @@ instances {
   prototype: "/enemies/sumo_enemy_alpha.go"
   position {
     x: 1014.0608
-    y: 678.4027
+    y: 685.0
     z: 0.0
   }
   rotation {
@@ -244,7 +244,7 @@ instances {
   prototype: "/enemies/sumo_enemy_alpha.go"
   position {
     x: 1800.0
-    y: 660.0
+    y: 685.0
     z: 0.0
   }
   rotation {
