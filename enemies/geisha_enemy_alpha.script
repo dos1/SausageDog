@@ -1,9 +1,9 @@
-local speed = -600
+local speed = 600
 local score = -5
 
 function update(self, dt)
 	local p = go.get_position()
-	p.x = p.x + speed * dt
+	p.x = p.x - (speed + GLOBAL_SPEED) * dt
 	if p.x < -92 then
 		go.delete()
 	end

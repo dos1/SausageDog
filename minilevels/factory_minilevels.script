@@ -1,52 +1,69 @@
-local delay = 8 -- todo: should be dependent on game speed
 
-local levels = {
-	{
-		name = "#level1factory",
-		delay = 8
-	}, {
-		name = "#level2factory",
-		delay = 7
-	}, {
-		name = "#level3factory",
-		delay = 10
-	}, {
-		name = "#level4factory",
-		delay = 9
-	}, {
-		name = "#level5factory",
-		delay = 10
-	}, {
-		name = "#level6factory",
-		delay = 10
-	}, {
-		name = "#level7factory",
-		delay = 9
-	}, {
-		name = "#level8factory",
-		delay = 9
-	}
+local LEVELS = {
+	{ "#level1factory", "#level2factory", "#level3factory" },
+	{ "#level4factory", "#level5factory", "#level6factory" },
+	{ "#level7factory", "#level8factory" }
 }
+
+local LEVELS_TO_UNLOCK_POOL = 6
+	
 
 function init(self)
 	self.timer = 0
+	self.current_pool = 1
+	self.counter = 0
+	self.history = {}
 	-- make the game deterministic
 	-- math.randomseed(0)
 end
 
 function update(self, dt)
-	self.timer = self.timer - dt
+	local spawn = true
+
+	if self.current then
+		for key,value in pairs(self.current) do 
+			if value then
+				--print(key, value)
+				if go.get_position(value).x <= 1920 then
+					self.current[key] = nil
+				else
+					spawn = false
+				end
+			end
+		end
+	end
+		
+		
 	--print(self.timer)
-	if self.timer < 0 then
-		self.timer = delay
+	if spawn then
 		local p = go.get_position()
 		p.x = 1920
 		p.y = 0
-		local level = levels[math.random(#levels)]
-		print(level["name"])
-		local component = level["name"]
-		delay = level["delay"]
-		local spawn = collectionfactory.create(component, p)
+		local possible_levels = {}
+				
+		for i=1, self.current_pool do
+			for j=1, #LEVELS[i] do
+				if LEVELS[i][j] ~= self.history[#self.history - 1] and LEVELS[i][j] ~= self.history[#self.history] then
+					possible_levels[#possible_levels+1]=LEVELS[i][j]
+				end
+			end
+		end
+		
+		local level = possible_levels[math.random(#possible_levels)]
+		self.history[#self.history + 1] = level
+		self.counter = self.counter + 1
+		if self.counter > LEVELS_TO_UNLOCK_POOL then
+			print("BOSS STAGE NOW - but not implemented yet :(")
+			self.current_pool = self.current_pool + 1
+			if self.current_pool > #LEVELS then
+				self.current_pool = #LEVELS
+			end
+			self.counter = 0
+		end
+		print(level)
+		local component = level
+		local list = collectionfactory.create(component, p)
+		self.current = list
 		--print(delay)
 	end
 	

@@ -1,9 +1,9 @@
-local speed = -530
+local speed = 530
 local score = -5
 
 function update(self, dt)
 	local p = go.get_position()
-	p.x = p.x + speed * dt
+	p.x = p.x - (speed + GLOBAL_SPEED) * dt
 	if p.x < -92 then
 		go.delete()
 	end
@@ -20,3 +20,5 @@ function on_message(self, message_id, message, sender)
 		end
 	end
 end
+
+go.property('test', 1);
