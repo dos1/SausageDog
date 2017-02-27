@@ -1,4 +1,4 @@
-local speed = 640
+local speed = 260
 local score = -5
 
 function init(self)

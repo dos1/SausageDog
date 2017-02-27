@@ -18,12 +18,12 @@ function update(self, dt)
 	local p = go.get_position()
 	local desired = min_y + ((max_y - min_y) / (tracks-1)) * self.cur_track
 	if p.y > desired then
-		p.y = p.y - (speed + GLOBAL_SPEED) * dt
+		p.y = p.y - (speed * GLOBAL_SPEED/START_SPEED) * dt
 		if p.y < desired then
 			p.y = desired
 		end
 	elseif p.y < desired then
-		p.y = p.y + (speed + GLOBAL_SPEED) * dt
+		p.y = p.y + (speed * GLOBAL_SPEED/START_SPEED) * dt
 		if p.y > desired then
 			p.y = desired
 		end

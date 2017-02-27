@@ -1,4 +1,6 @@
-GLOBAL_SPEED = 0
+START_SPEED = 400
+
+GLOBAL_SPEED = START_SPEED
 
 function init(self)
 	-- set blue background
@@ -41,7 +43,7 @@ function on_message(self, message_id, message, sender)
 		msg.post("/factory_minilevels", "restart", {})
 		self.lifes = 3
 		self.score = 0
-		GLOBAL_SPEED = 0
+		GLOBAL_SPEED = START_SPEED
 		msg.post("#gui", "update_lifes", {self.lifes})
 		msg.post("#gui", "update_score", {self.score})
 	end
@@ -70,10 +72,10 @@ function on_input(self, action_id, action)
 	
 	if action.pressed then
 		if action_id == hash("left") then
-			GLOBAL_SPEED = GLOBAL_SPEED - 100
+			GLOBAL_SPEED = GLOBAL_SPEED - 50
 			print(GLOBAL_SPEED)
 		elseif action_id == hash("right") then
-			GLOBAL_SPEED = GLOBAL_SPEED + 100
+			GLOBAL_SPEED = GLOBAL_SPEED + 50
 			print(GLOBAL_SPEED)
 		elseif action_id == hash("space") then
 			msg.post(".", "restart")
