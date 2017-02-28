@@ -7,7 +7,9 @@ function init(self)
 	-- Let the script receive input from the player
 	msg.post(".", "acquire_input_focus")
 	-- the current speed of the space ship
-	self.cur_track = 0
+	self.cur_track = 1
+	-- start playing the background music
+  	msg.post("#dog_sound","play_sound")
 	
 	-- Animate the ship so it's swaying back and forth
 	go.set(".", "euler.z", -5)

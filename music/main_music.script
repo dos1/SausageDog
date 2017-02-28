@@ -1,0 +1,7 @@
+local volume = -12.0
+
+function init(self)
+  msg.post(".","acquire_input_focus")
+  -- start playing the background music
+  msg.post("#main_music_speed1","play_sound")
+end

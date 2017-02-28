@@ -1,8 +1,9 @@
 
 local LEVELS = {
-	{ "#level_a1factory", "#level_a2factory", "#level_a3factory", "#level_a4factory", "#level_a5factory", "#level_a6factory" },
-	{ "#level_b1factory", "#level_b2factory", "#level_b3factory", "#level_b4factory", "#level_b5factory", "#level_b6factory", "#level_s1factory"  },
-	{ "#level_c1factory", "#level_c2factory", "#level_c3factory"  }
+	{ "#level_a1factory", "#level_a2factory", "#level_a3factory", "#level_a4factory", "#level_a5factory", "#level_a6factory", "#level_a7factory", "#level_a8factory", "#level_a9factory" },
+	{ "#level_b1factory", "#level_b2factory", "#level_b3factory", "#level_b4factory", "#level_b5factory", "#level_b6factory", "#level_b7factory", "#level_b8factory", "#level_b9factory", "#level_s1factory" },
+	{ "#level_c1factory", "#level_c2factory", "#level_c3factory", "#level_c4factory", "#level_c5factory", "#level_c6factory", "#level_c7factory", "#level_c8factory", "#level_c9factory", "#level_s2factory" },
+	{ "#level_c1factory", "#level_c2factory", "#level_c3factory", "#level_c4factory", "#level_c5factory", "#level_c6factory", "#level_c7factory", "#level_c8factory", "#level_c9factory", "#level_s2factory" }
 }
 
 local LEVELS_TO_UNLOCK_POOL = 5
@@ -10,7 +11,7 @@ local LEVELS_TO_UNLOCK_POOL = 5
 
 function init(self)
 	self.timer = 0
-	self.current_pool = 1
+	self.current_pool = 3
 	self.counter = 0
 	self.history = {}
 	-- make the game deterministic

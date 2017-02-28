@@ -1,10 +1,10 @@
 name: "default"
 instances {
-  id: "enemy_alpha_geisha00"
+  id: "enemy_alpha_geisha10"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 65.575874
-    y: 539.7906
+    x: 1141.8955
+    y: 345.0
     z: 0.0
   }
   rotation {
@@ -20,10 +20,70 @@ instances {
   }
 }
 instances {
-  id: "enemy_alpha_geisha01"
+  id: "enemy_alpha_geisha3"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 345.8968
+    x: 183.64594
+    y: 345.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha_geisha4"
+  prototype: "/enemies/geisha_enemy_alpha.go"
+  position {
+    x: 350.0
+    y: 575.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha_geisha5"
+  prototype: "/enemies/geisha_enemy_alpha.go"
+  position {
+    x: 558.97394
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_alpha_geisha8"
+  prototype: "/enemies/geisha_enemy_alpha.go"
+  position {
+    x: 841.8955
     y: 805.0
     z: 0.0
   }
@@ -40,71 +100,11 @@ instances {
   }
 }
 instances {
-  id: "enemy_alpha_geisha02"
+  id: "enemy_alpha_geisha9"
   prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 1281.1205
-    y: 344.6051
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "sumo_enemy_alpha0"
-  prototype: "/enemies/sumo_enemy_alpha.go"
-  position {
-    x: 401.2025
-    y: 215.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "sumo_enemy_alpha1"
-  prototype: "/enemies/sumo_enemy_alpha.go"
-  position {
-    x: 1016.6517
-    y: 685.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "sumo_enemy_alpha2"
-  prototype: "/enemies/sumo_enemy_alpha.go"
-  position {
-    x: 1500.9177
-    y: 215.0
+    x: 1268.0444
+    y: 575.0
     z: 0.0
   }
   rotation {

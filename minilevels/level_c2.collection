@@ -83,7 +83,7 @@ instances {
   id: "samurai_enemy_alpha02"
   prototype: "/enemies/samurai_enemy_alpha.go"
   position {
-    x: 2121.6143
+    x: 2350.2397
     y: 345.0
     z: 0.0
   }
@@ -103,8 +103,8 @@ instances {
   id: "samurai_enemy_alpha03"
   prototype: "/enemies/samurai_enemy_alpha.go"
   position {
-    x: 2571.6143
-    y: 115.0
+    x: 2800.2397
+    y: 105.0
     z: 0.0
   }
   rotation {
@@ -123,7 +123,7 @@ instances {
   id: "samurai_enemy_alpha3"
   prototype: "/enemies/samurai_enemy_alpha.go"
   position {
-    x: 3021.6143
+    x: 3250.2397
     y: 345.0
     z: 0.0
   }
@@ -143,8 +143,8 @@ instances {
   id: "samurai_enemy_alpha4"
   prototype: "/enemies/samurai_enemy_alpha.go"
   position {
-    x: 3471.6143
-    y: 115.0
+    x: 3700.2397
+    y: 105.0
     z: 0.0
   }
   rotation {

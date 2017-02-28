@@ -1,6 +1,6 @@
 components {
   id: "script"
-  component: "/enemies/dragon_enemy_alpha.script"
+  component: "/enemies/dragon_big_enemy_alpha.script"
   position {
     x: 0.0
     y: 0.0
