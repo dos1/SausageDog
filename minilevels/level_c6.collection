@@ -1,129 +1,9 @@
 name: "default"
 instances {
-  id: "dragon_enemy_alpha"
-  prototype: "/enemies/dragon_enemy_alpha.go"
-  position {
-    x: 634.46655
-    y: 575.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "dragon_enemy_alpha1"
-  prototype: "/enemies/dragon_enemy_alpha.go"
-  position {
-    x: 1405.9956
-    y: 805.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "dragon_enemy_alpha2"
-  prototype: "/enemies/dragon_enemy_alpha.go"
-  position {
-    x: 3652.7502
-    y: 115.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "dragon_enemy_alpha3"
-  prototype: "/enemies/dragon_enemy_alpha.go"
-  position {
-    x: 2846.3337
-    y: 345.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "dragon_enemy_big_alpha_"
-  prototype: "/enemies/dragon_enemy_big_alpha_.go"
-  position {
-    x: 828.3142
-    y: 215.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "dragon_enemy_big_alpha_1"
-  prototype: "/enemies/dragon_enemy_big_alpha_.go"
-  position {
-    x: 1581.884
-    y: 215.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "dragon_enemy_big_alpha_2"
   prototype: "/enemies/dragon_enemy_big_alpha_.go"
   position {
-    x: 3017.7468
+    x: 1997.3275
     y: 685.0
     z: 0.0
   }
@@ -143,8 +23,348 @@ instances {
   id: "dragon_enemy_big_alpha_3"
   prototype: "/enemies/dragon_enemy_big_alpha_.go"
   position {
-    x: 3771.3167
+    x: 3597.3276
     y: 685.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "dragon_enemy_big_alpha_4"
+  prototype: "/enemies/dragon_enemy_big_alpha_.go"
+  position {
+    x: 1197.3275
+    y: 685.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "dragon_enemy_big_alpha_5"
+  prototype: "/enemies/dragon_enemy_big_alpha_.go"
+  position {
+    x: 2797.3276
+    y: 685.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "dragon_enemy_big_alpha_6"
+  prototype: "/enemies/dragon_enemy_big_alpha_.go"
+  position {
+    x: 5140.8154
+    y: 685.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "dragon_enemy_big_alpha_7"
+  prototype: "/enemies/dragon_enemy_big_alpha_.go"
+  position {
+    x: 4340.8154
+    y: 685.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 940.39435
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha1"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1112.6586
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha10"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 3424.445
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha11"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 3079.9167
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha2"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1284.9229
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha3"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1457.1871
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha4"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 2318.5085
+    y: 345.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha5"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 2146.2441
+    y: 345.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha6"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1973.9799
+    y: 345.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha7"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 2490.7727
+    y: 345.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha8"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 2907.6523
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha9"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 3252.181
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sumo_enemy_alpha"
+  prototype: "/enemies/sumo_enemy_alpha.go"
+  position {
+    x: 3564.636
+    y: 225.0
     z: 0.0
   }
   rotation {

@@ -3,7 +3,7 @@ instances {
   id: "dragon_enemy_alpha"
   prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 634.46655
+    x: 1064.5266
     y: 575.0
     z: 0.0
   }
@@ -23,7 +23,7 @@ instances {
   id: "dragon_enemy_alpha1"
   prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 1405.9956
+    x: 1836.0557
     y: 805.0
     z: 0.0
   }
@@ -43,7 +43,7 @@ instances {
   id: "dragon_enemy_alpha2"
   prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 3652.7502
+    x: 4082.8103
     y: 115.0
     z: 0.0
   }
@@ -63,7 +63,7 @@ instances {
   id: "dragon_enemy_alpha3"
   prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 2846.3337
+    x: 3276.3938
     y: 345.0
     z: 0.0
   }
@@ -83,7 +83,7 @@ instances {
   id: "dragon_enemy_big_alpha_"
   prototype: "/enemies/dragon_enemy_big_alpha_.go"
   position {
-    x: 828.3142
+    x: 1258.3743
     y: 215.0
     z: 0.0
   }
@@ -103,7 +103,7 @@ instances {
   id: "dragon_enemy_big_alpha_1"
   prototype: "/enemies/dragon_enemy_big_alpha_.go"
   position {
-    x: 1581.884
+    x: 2011.9441
     y: 215.0
     z: 0.0
   }
@@ -123,7 +123,7 @@ instances {
   id: "dragon_enemy_big_alpha_2"
   prototype: "/enemies/dragon_enemy_big_alpha_.go"
   position {
-    x: 3017.7468
+    x: 3447.807
     y: 685.0
     z: 0.0
   }
@@ -143,7 +143,7 @@ instances {
   id: "dragon_enemy_big_alpha_3"
   prototype: "/enemies/dragon_enemy_big_alpha_.go"
   position {
-    x: 3771.3167
+    x: 4201.3765
     y: 685.0
     z: 0.0
   }
