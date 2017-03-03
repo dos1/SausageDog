@@ -1,4 +1,7 @@
 START_SPEED = 400
+MAX_SPEED = 800
+SPEED_STEPS = 5
+LEVELS_TO_SPEED_UP = 5
 
 GLOBAL_SPEED = START_SPEED
 
@@ -9,6 +12,7 @@ function init(self)
 	self.enemies = {}
 	self.score = 0
 	self.lifes = 3
+	self.counter = 0
 	msg.post("#gui", "update_lifes", {self.lifes})
 	msg.post("#gui", "update_score", {self.score})
 end
@@ -21,7 +25,16 @@ function update(self, dt)
 		end
 	end
 	if spawn then
+		self.counter = self.counter + 1
 		msg.post("/factory_minilevels", "spawn", {})
+		if self.counter == LEVELS_TO_SPEED_UP then
+			self.counter = 0
+			GLOBAL_SPEED = GLOBAL_SPEED + (MAX_SPEED - START_SPEED) / SPEED_STEPS
+			if GLOBAL_SPEED > MAX_SPEED then
+				GLOBAL_SPEED = MAX_SPEED
+			end
+			print("Speed up!", GLOBAL_SPEED)
+		end
 	end
 end
 
@@ -43,6 +56,7 @@ function on_message(self, message_id, message, sender)
 		msg.post("/factory_minilevels", "restart", {})
 		self.lifes = 3
 		self.score = 0
+		self.counter  = 0
 		GLOBAL_SPEED = START_SPEED
 		msg.post("#gui", "update_lifes", {self.lifes})
 		msg.post("#gui", "update_score", {self.score})
