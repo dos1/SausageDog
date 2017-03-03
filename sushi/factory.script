@@ -1,6 +1,6 @@
 local frequency = 0.20
-local min_y = 100
-local max_y = 730
+local a = {100,220,340,460,575,680,805}
+
 
 function init(self)
 	self.timer = 0.5/frequency
@@ -9,9 +9,9 @@ end
 function update(self, dt)
 	self.timer = self.timer - dt
 	if self.timer <= 0 then
-		self.timer = 0.5/frequency
+		self.timer = 0.8/frequency
 		local p = go.get_position()
-		p.y = vmath.lerp(math.random(), min_y, max_y)
+		p.y = (a[math.random(1,#a)])
 		local component = "#sushi_factory"
 		local spawn = factory.create(component, p)
 	end

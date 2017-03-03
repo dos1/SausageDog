@@ -123,8 +123,8 @@ instances {
   id: "samurai_enemy_alpha1"
   prototype: "/enemies/samurai_enemy_alpha.go"
   position {
-    x: 847.1101
-    y: 805.0
+    x: 1010.43427
+    y: 809.6224
     z: 0.0
   }
   rotation {
