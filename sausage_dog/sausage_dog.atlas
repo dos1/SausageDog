@@ -1,3 +1,28 @@
-images {
-  image: "/sausage_dog/sausagedog.png"
+animations {
+  id: "sausage_dog_anim_run"
+  images {
+    image: "/sausage_dog/anim_run/piesel_run_001.png"
+  }
+  images {
+    image: "/sausage_dog/anim_run/piesel_run_002.png"
+  }
+  images {
+    image: "/sausage_dog/anim_run/piesel_run_003.png"
+  }
+  images {
+    image: "/sausage_dog/anim_run/piesel_run_004.png"
+  }
+  images {
+    image: "/sausage_dog/anim_run/piesel_run_005.png"
+  }
+  images {
+    image: "/sausage_dog/anim_run/piesel_run_006.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 30
+  flip_horizontal: 0
+  flip_vertical: 0
 }
+margin: 0
+extrude_borders: 0
+inner_padding: 0
