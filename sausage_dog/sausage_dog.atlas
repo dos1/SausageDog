@@ -19,7 +19,7 @@ animations {
     image: "/sausage_dog/anim_run/piesel_run_006.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 30
+  fps: 12
   flip_horizontal: 0
   flip_vertical: 0
 }

@@ -25,7 +25,7 @@ instances {
   position {
     x: 0.0
     y: 0.0
-    z: 1.0
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -42,11 +42,26 @@ instances {
 scale_along_z: 0
 embedded_instances {
   id: "sausage"
-  data: "embedded_components {\n"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/sausage_dog/sausage_dog_menu.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/enemies/enemies_beta.atlas\\\"\\n"
-  "default_animation: \\\"sausage_beta\\\"\\n"
+  "  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\n"
+  "default_animation: \\\"sausage_dog_anim_run\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -64,9 +79,9 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 8.219117
-    y: -143.83455
-    z: 1.0
+    x: 0.0
+    y: -52.08
+    z: 0.0
   }
   rotation {
     x: 0.0

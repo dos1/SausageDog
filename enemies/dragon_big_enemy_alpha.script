@@ -1,5 +1,5 @@
 local speed = 670
-local score = -5
+
 
 function init(self)
 	msg.post("/main", "enemy_added", {})
@@ -22,7 +22,7 @@ end
 function on_message(self, message_id, message, sender)
 	if message_id == hash("collision_response") then
 		if message.other_id == hash("/sausage_dog") then
-			msg.post("/main", "add_score", {amount = score})
+			
 			msg.post("/main", "remove_life", {})
 			go.delete()
 		end

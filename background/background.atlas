@@ -1,8 +1,8 @@
 images {
-  image: "/background/bg_alpha.png"
+  image: "/background/bg_alpha2.png"
 }
 images {
-  image: "/background/bg_alpha2.png"
+  image: "/background/bg_beta.png"
 }
 margin: 0
 extrude_borders: 1

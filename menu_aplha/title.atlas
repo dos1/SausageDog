@@ -34,6 +34,9 @@ images {
 images {
   image: "/menu_aplha/png_menu_alpha/main_menu/main_menu.png"
 }
+images {
+  image: "/menu_aplha/png_menu_alpha/pause/bg_pause.png"
+}
 margin: 0
 extrude_borders: 0
 inner_padding: 0

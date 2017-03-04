@@ -7,8 +7,8 @@ embedded_components {
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 1006.7149
-    y: 548.54395
+    x: 951.9164
+    y: 527.7583
     z: 0.0
   }
   rotation {
@@ -27,8 +27,8 @@ embedded_components {
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 1404.0214
-    y: 672.3351
+    x: 1349.2228
+    y: 651.54944
     z: 0.0
   }
   rotation {
@@ -47,8 +47,8 @@ embedded_components {
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 1446.5858
-    y: 292.87283
+    x: 513.1209
+    y: 283.4248
     z: 0.0
   }
   rotation {
@@ -67,7 +67,7 @@ embedded_components {
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 543.17523
+    x: 1416.1727
     y: 300.12766
     z: 0.0
   }
@@ -87,8 +87,8 @@ embedded_components {
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 551.6561
-    y: 644.84607
+    x: 496.85757
+    y: 624.0604
     z: 0.0
   }
   rotation {
@@ -107,8 +107,8 @@ embedded_components {
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 1025.7767
-    y: 834.3991
+    x: 970.9782
+    y: 813.61346
     z: 0.0
   }
   rotation {
