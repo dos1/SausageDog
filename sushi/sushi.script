@@ -19,6 +19,7 @@ function on_message(self, message_id, message, sender)
 	if message_id == hash("collision_response") then
 		if message.other_id == hash("/sausage_dog") then
 			msg.post("/main", "add_score", {amount = score})
+			msg.post("#sushi_eaten","play_sound")
 			go.delete()
 		end
 	end
