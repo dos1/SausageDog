@@ -15,7 +15,12 @@ function init(self)
 	self.score = 0
 	self.lifes = 3
 	self.counter = 0
-	self.highscore = sys.load(save_file)[1]
+	if sys.load(save_file)[1] == nil then
+		self.highscore = 0
+	else
+		self.highscore = sys.load(save_file)[1]
+	end
+		
 	msg.post("#gui", "update_lifes", {self.lifes})
 	msg.post("#gui", "update_score", {self.score})
 end
@@ -76,6 +81,7 @@ function on_message(self, message_id, message, sender)
 	if message_id == hash("remove_life") then
 		self.lifes = self.lifes - 1
 		msg.post("#gui", "update_lifes", {self.lifes})
+		msg.post("#remove_life","play_sound")
 		if self.lifes <= 0 then
 			msg.post(".", "restart", {})
 		end
