@@ -15,7 +15,7 @@ function init(self)
 	self.score = 0
 	self.lifes = 3
 	self.counter = 0
-	if sys.load(save_file) == nil then
+	if sys.load(save_file)[1] == nil then
 		self.highscore = 0
 	else
 		self.highscore = sys.load(save_file)[1]

@@ -7,7 +7,7 @@ function init(self)
 	self.lifes_node = gui.get_node("lifes")
 	self.highscore = -1
 	self.highscore_node = gui.get_node("highscore1")	
-	if sys.load(save_file) then
+	if sys.load(save_file)[1] == nil then
 		self.highscore = sys.load(save_file)[1]
 	else
 		self.highscore = 0
