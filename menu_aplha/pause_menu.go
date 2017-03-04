@@ -1,4 +1,44 @@
 embedded_components {
+  id: "button_music"
+  type: "sprite"
+  data: "tile_set: \"/menu_aplha/main_menu.atlas\"\n"
+  "default_animation: \"button_music\"\n"
+  "material: \"/builtins/materials/sprite.material\"\n"
+  "blend_mode: BLEND_MODE_ALPHA\n"
+  ""
+  position {
+    x: 839.41205
+    y: 594.2504
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
+  id: "button_sound"
+  type: "sprite"
+  data: "tile_set: \"/menu_aplha/main_menu.atlas\"\n"
+  "default_animation: \"button_sound\"\n"
+  "material: \"/builtins/materials/sprite.material\"\n"
+  "blend_mode: BLEND_MODE_ALPHA\n"
+  ""
+  position {
+    x: 1092.5681
+    y: 594.2504
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
   id: "menu"
   type: "sprite"
   data: "tile_set: \"/menu_aplha/main_menu.atlas\"\n"

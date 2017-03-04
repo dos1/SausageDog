@@ -7,6 +7,34 @@ images {
 images {
   image: "/enemies/png_beta_enemies/geisha_beta_mala.png"
 }
+animations {
+  id: "sumo_anim"
+  images {
+    image: "/enemies/png_beta_enemies/sumo_anim/sumo_001.png"
+  }
+  images {
+    image: "/enemies/png_beta_enemies/sumo_anim/sumo_002.png"
+  }
+  images {
+    image: "/enemies/png_beta_enemies/sumo_anim/sumo_003.png"
+  }
+  images {
+    image: "/enemies/png_beta_enemies/sumo_anim/sumo_004.png"
+  }
+  images {
+    image: "/enemies/png_beta_enemies/sumo_anim/sumo_005.png"
+  }
+  images {
+    image: "/enemies/png_beta_enemies/sumo_anim/sumo_006.png"
+  }
+  images {
+    image: "/enemies/png_beta_enemies/sumo_anim/sumo_007.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 30
+  flip_horizontal: 0
+  flip_vertical: 0
+}
 margin: 0
 extrude_borders: 1
 inner_padding: 0
