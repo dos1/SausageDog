@@ -83,8 +83,8 @@ embedded_components {
 embedded_components {
   id: "sprite"
   type: "sprite"
-  data: "tile_set: \"/enemies/enemies_beta.atlas\"\n"
-  "default_animation: \"sausage_beta\"\n"
+  data: "tile_set: \"/sausage_dog/sausage_dog.atlas\"\n"
+  "default_animation: \"sausage_dog_anim_run\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
