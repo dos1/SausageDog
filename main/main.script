@@ -15,7 +15,12 @@ function init(self)
 	self.score = 0
 	self.lifes = 3
 	self.counter = 0
-	self.highscore = sys.load(save_file)[1]
+	if sys.load(save_file) then
+		self.highscore = sys.load(save_file)[1]
+	else
+		self.highscore = 0
+	end
+		
 	msg.post("#gui", "update_lifes", {self.lifes})
 	msg.post("#gui", "update_score", {self.score})
 end
