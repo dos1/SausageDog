@@ -1,0 +1,10 @@
+name: "default"
+instances {
+  id: "gameover_menu"
+  prototype: "/menu_alpha/gameover_menu.go"
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}

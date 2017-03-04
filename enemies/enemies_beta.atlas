@@ -56,7 +56,7 @@ animations {
     image: "/enemies/png_beta_enemies/geisha_anim/geisha_006.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 30
+  fps: 6
   flip_horizontal: 0
   flip_vertical: 0
 }

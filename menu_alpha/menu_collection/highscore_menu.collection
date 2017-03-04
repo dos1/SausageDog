@@ -5,7 +5,7 @@ instances {
   position {
     x: 0.0
     y: 0.0
-    z: -0.050000012
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -21,7 +21,7 @@ instances {
 }
 instances {
   id: "highscore_menu"
-  prototype: "/menu_aplha/highscore_menu.go"
+  prototype: "/menu_alpha/highscore_menu.go"
   position {
     x: 0.0
     y: 0.0
@@ -45,7 +45,7 @@ instances {
   position {
     x: 454.7585
     y: 615.12463
-    z: -0.050000012
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -65,7 +65,7 @@ instances {
   position {
     x: 657.06445
     y: 545.7626
-    z: -0.050000012
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -85,7 +85,7 @@ instances {
   position {
     x: 827.35077
     y: 419.62457
-    z: -0.050000012
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -105,7 +105,7 @@ instances {
   position {
     x: 530.9265
     y: 299.7935
-    z: -0.050000012
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -125,7 +125,7 @@ instances {
   position {
     x: 947.1818
     y: 596.2178
-    z: -0.050000012
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -145,7 +145,7 @@ instances {
   position {
     x: 852.57837
     y: 198.8831
-    z: -0.050000012
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -165,7 +165,7 @@ instances {
   position {
     x: 1060.706
     y: 306.1004
-    z: -0.050000012
+    z: 0.0
   }
   rotation {
     x: 0.0
