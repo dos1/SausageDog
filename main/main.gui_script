@@ -6,11 +6,12 @@ function init(self)
 	self.lifes = -1
 	self.lifes_node = gui.get_node("lifes")
 	self.highscore = -1
-	self.highscore_node = gui.get_node("highscore1")	
+	self.highscore_node = gui.get_node("highscore1")
+	print(sys.load(save_file)[1] == nil)
 	if sys.load(save_file)[1] == nil then
-		self.highscore = sys.load(save_file)[1]
-	else
 		self.highscore = 0
+	else
+		self.highscore = sys.load(save_file)[1]
 	end
 	gui.set_text(self.highscore_node, tostring(self.highscore))
 end
