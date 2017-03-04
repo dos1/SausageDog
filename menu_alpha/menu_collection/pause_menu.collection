@@ -1,7 +1,7 @@
 name: "default"
 instances {
   id: "pause_menu"
-  prototype: "/menu_aplha/pause_menu.go"
+  prototype: "/menu_alpha/pause_menu.go"
   position {
     x: 0.0
     y: 0.0
@@ -23,9 +23,9 @@ scale_along_z: 0
 embedded_instances {
   id: "go"
   data: "embedded_components {\n"
-  "  id: \"sprite\"\n"
+  "  id: \"bg_pause\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/menu_aplha/title.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/menu_alpha/title.atlas\\\"\\n"
   "default_animation: \\\"bg_pause\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ADD\\n"

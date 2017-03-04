@@ -1,0 +1,35 @@
+name: "default"
+instances {
+  id: "bg_alpha_scroll_menu"
+  prototype: "/background/bg_alpha_scroll_menu.go"
+  position {
+    x: 5.3299685
+    y: -207.86877
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "main_menu"
+  prototype: "/menu_alpha/main_menu.go"
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "sausage"
+  data: "components {\n  id: \"script\"\n  component: \"/sausage_dog/sausage_dog_menu.script\"\n  position {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n  }\n  rotation {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n    w: 1.0\n  }\n}\nembedded_components {\n  id: \"sprite\"\n  type: \"sprite\"\n  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\ndefault_animation: \\\"sausage_dog_anim_run\\\"\\nmaterial: \\\"/builtins/materials/sprite.material\\\"\\nblend_mode: BLEND_MODE_ALPHA\\n\"\n  position {\n    x: 614.37897\n    y: 530.13306\n    z: 0.0\n  }\n  rotation {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n    w: 1.0\n  }\n}\n"
+  position {
+    y: -52.08
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}

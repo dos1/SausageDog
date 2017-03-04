@@ -99,13 +99,33 @@ instances {
     z: 1.0
   }
 }
+collection_instances {
+  id: "highscore_menu"
+  collection: "/menu_alpha/menu_collection/highscore_menu.collection"
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "arrows"
   data: "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/menu_aplha/main_menu.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/menu_alpha/main_menu.atlas\\\"\\n"
   "default_animation: \\\"button_arrow\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -125,7 +145,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite1\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/menu_aplha/main_menu.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/menu_alpha/main_menu.atlas\\\"\\n"
   "default_animation: \\\"button_arrow\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
