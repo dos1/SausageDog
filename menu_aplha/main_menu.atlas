@@ -1,0 +1,45 @@
+images {
+  image: "/menu_aplha/png_menu_alpha/pause/0.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/gameover/box_gameover.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/highscore/box_highscore.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/main_menu/box_mainmenu.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/button_arrow.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/pause/button_give_up.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/main_menu/button_highscore.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/gameover/button_menu.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/highscore/button_menu_hs.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/main_menu/button_music.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/main_menu/button_pause.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/gameover/button_play.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/main_menu/button_play_main.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/pause/button_play_puse.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/main_menu/button_sound.png"
+}

@@ -1,0 +1,39 @@
+images {
+  image: "/menu_aplha/png_menu_alpha/pause/0.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/highscore/titile_highscore.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/gameover/title_best_distance.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/highscore/title_bestdistance.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/gameover/title_game_over.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/highscore/title_gds.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/main_menu/title_gds.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/pause/title_pause.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/main_menu/title_sausage.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/gameover/title_score.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/pause/title_score.png"
+}
+images {
+  image: "/menu_aplha/png_menu_alpha/main_menu/main_menu.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0

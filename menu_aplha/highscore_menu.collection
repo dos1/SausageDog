@@ -1,0 +1,182 @@
+name: "default"
+instances {
+  id: "bg_alpha_scroll_hsmenu"
+  prototype: "/background/bg_alpha_scroll_hsmenu.go"
+  position {
+    x: 0.0
+    y: 0.0
+    z: -0.050000012
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "highscore_menu"
+  prototype: "/menu_aplha/highscore_menu.go"
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 454.7585
+    y: 615.12463
+    z: -0.050000012
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs1"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 657.06445
+    y: 545.7626
+    z: -0.050000012
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs2"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 827.35077
+    y: 419.62457
+    z: -0.050000012
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs3"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 530.9265
+    y: 299.7935
+    z: -0.050000012
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs4"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 947.1818
+    y: 596.2178
+    z: -0.050000012
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs5"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 852.57837
+    y: 198.8831
+    z: -0.050000012
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs6"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 1060.706
+    y: 306.1004
+    z: -0.050000012
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+scale_along_z: 0
