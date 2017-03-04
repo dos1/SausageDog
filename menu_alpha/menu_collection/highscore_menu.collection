@@ -43,8 +43,8 @@ instances {
   id: "sushi_hs"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 454.7585
-    y: 615.12463
+    x: 288.24008
+    y: 552.68024
     z: 0.0
   }
   rotation {
@@ -54,8 +54,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 1.0
-    y: 1.0
+    x: 2.0
+    y: 2.0
     z: 1.0
   }
 }
@@ -63,8 +63,8 @@ instances {
   id: "sushi_hs1"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 657.06445
-    y: 545.7626
+    x: 635.2779
+    y: 613.57684
     z: 0.0
   }
   rotation {
@@ -74,8 +74,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 1.0
-    y: 1.0
+    x: 2.0
+    y: 2.0
     z: 1.0
   }
 }
@@ -83,8 +83,8 @@ instances {
   id: "sushi_hs2"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 827.35077
-    y: 419.62457
+    x: 680.1299
+    y: 376.47775
     z: 0.0
   }
   rotation {
@@ -94,8 +94,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 1.0
-    y: 1.0
+    x: 2.0
+    y: 2.0
     z: 1.0
   }
 }
@@ -103,8 +103,8 @@ instances {
   id: "sushi_hs3"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 530.9265
-    y: 299.7935
+    x: 316.1641
+    y: 324.1882
     z: 0.0
   }
   rotation {
@@ -114,8 +114,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 1.0
-    y: 1.0
+    x: 2.0
+    y: 2.0
     z: 1.0
   }
 }
@@ -123,8 +123,8 @@ instances {
   id: "sushi_hs4"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 947.1818
-    y: 596.2178
+    x: 872.3269
+    y: 596.49054
     z: 0.0
   }
   rotation {
@@ -134,8 +134,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 1.0
-    y: 1.0
+    x: 2.0
+    y: 2.0
     z: 1.0
   }
 }
@@ -143,8 +143,8 @@ instances {
   id: "sushi_hs5"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 852.57837
-    y: 198.8831
+    x: 473.78647
+    y: 488.61966
     z: 0.0
   }
   rotation {
@@ -154,8 +154,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 1.0
-    y: 1.0
+    x: 2.0
+    y: 2.0
     z: 1.0
   }
 }
@@ -163,8 +163,8 @@ instances {
   id: "sushi_hs6"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 1060.706
-    y: 306.1004
+    x: 874.89
+    y: 301.54874
     z: 0.0
   }
   rotation {
@@ -174,9 +174,89 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 1.0
-    y: 1.0
+    x: 2.0
+    y: 2.0
     z: 1.0
   }
 }
 scale_along_z: 0
+embedded_instances {
+  id: "dog"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\n"
+  "default_animation: \\\"sausage_dog_anim_run\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -177.10506\n"
+  "    y: -451.88348\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 166.701
+    y: 430.5578
+    z: 0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.3
+    y: 0.3
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "dog1"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\n"
+  "default_animation: \\\"sausage_dog_anim_run\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -177.10506\n"
+  "    y: -451.88348\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 244.47517
+    y: 452.076
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}

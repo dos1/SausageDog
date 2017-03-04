@@ -1,10 +1,14 @@
 embedded_components {
   id: "button_music"
   type: "sprite"
-  data: "tile_set: \"/menu_alpha/main_menu.atlas\"\ndefault_animation: \"button_music\"\n"
+  data: "tile_set: \"/menu_alpha/main_menu.atlas\"\n"
+  "default_animation: \"button_music\"\n"
+  "material: \"/builtins/materials/sprite.material\"\n"
+  "blend_mode: BLEND_MODE_ALPHA\n"
+  ""
   position {
-    x: 839.41205
-    y: 594.2504
+    x: 1279.7423
+    y: 148.98067
     z: 0.0
   }
   rotation {
@@ -17,10 +21,34 @@ embedded_components {
 embedded_components {
   id: "button_sound"
   type: "sprite"
-  data: "tile_set: \"/menu_alpha/main_menu.atlas\"\ndefault_animation: \"button_sound\"\n"
+  data: "tile_set: \"/menu_alpha/main_menu.atlas\"\n"
+  "default_animation: \"button_sound\"\n"
+  "material: \"/builtins/materials/sprite.material\"\n"
+  "blend_mode: BLEND_MODE_ALPHA\n"
+  ""
   position {
-    x: 1092.5681
-    y: 594.2504
+    x: 1532.8984
+    y: 148.98067
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
+  id: "giveup"
+  type: "sprite"
+  data: "tile_set: \"/menu_alpha/main_menu.atlas\"\n"
+  "default_animation: \"button_give_up_small\"\n"
+  "material: \"/builtins/materials/sprite.material\"\n"
+  "blend_mode: BLEND_MODE_ALPHA\n"
+  ""
+  position {
+    x: 952.43994
+    y: 355.50055
     z: 0.0
   }
   rotation {
@@ -33,42 +61,14 @@ embedded_components {
 embedded_components {
   id: "menu"
   type: "sprite"
-  data: "tile_set: \"/menu_alpha/main_menu.atlas\"\ndefault_animation: \"button_play_puse\"\n"
+  data: "tile_set: \"/menu_alpha/main_menu.atlas\"\n"
+  "default_animation: \"button_play_puse\"\n"
+  "material: \"/builtins/materials/sprite.material\"\n"
+  "blend_mode: BLEND_MODE_ALPHA\n"
+  ""
   position {
-    x: 1398.5093
-    y: 325.86313
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-}
-embedded_components {
-  id: "play2"
-  type: "sprite"
-  data: "tile_set: \"/menu_alpha/main_menu.atlas\"\ndefault_animation: \"button_give_up\"\n"
-  position {
-    x: 495.09866
-    y: 333.11795
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-}
-embedded_components {
-  id: "title"
-  type: "sprite"
-  data: "tile_set: \"/menu_alpha/title.atlas\"\ndefault_animation: \"title_pause\"\n"
-  position {
-    x: 970.9782
-    y: 813.61346
+    x: 952.8607
+    y: 652.35406
     z: 0.0
   }
   rotation {

@@ -1,3 +1,6 @@
+images {
+  image: "/enemies/png_beta_enemies/sausage_beta.png"
+}
 animations {
   id: "sausage_dog_anim_run"
   images {

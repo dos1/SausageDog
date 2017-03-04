@@ -43,3 +43,9 @@ images {
 images {
   image: "/menu_alpha/png_menu_alpha/main_menu/button_sound.png"
 }
+images {
+  image: "/menu_alpha/png_menu_alpha/button_give_up_small.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0

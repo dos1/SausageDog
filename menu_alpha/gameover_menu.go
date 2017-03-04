@@ -27,8 +27,8 @@ embedded_components {
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 1212.0321
-    y: 600.0
+    x: 574.463
+    y: 439.6969
     z: 0.0
   }
   rotation {
@@ -42,13 +42,13 @@ embedded_components {
   id: "menu"
   type: "sprite"
   data: "tile_set: \"/menu_alpha/main_menu.atlas\"\n"
-  "default_animation: \"button_menu_hs\"\n"
+  "default_animation: \"button_give_up_small\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 514.87976
-    y: 320.0
+    x: 467.5175
+    y: 234.38358
     z: 0.0
   }
   rotation {
@@ -59,16 +59,16 @@ embedded_components {
   }
 }
 embedded_components {
-  id: "play2"
+  id: "play3"
   type: "sprite"
   data: "tile_set: \"/menu_alpha/main_menu.atlas\"\n"
-  "default_animation: \"button_play\"\n"
+  "default_animation: \"button_play_main\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 1442.5555
-    y: 320.0
+    x: 1414.2072
+    y: 495.31198
     z: 0.0
   }
   rotation {
@@ -87,8 +87,8 @@ embedded_components {
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 607.6654
-    y: 600.0
+    x: 429.14606
+    y: 565.3891
     z: 0.0
   }
   rotation {
@@ -107,8 +107,8 @@ embedded_components {
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 974.4959
-    y: 776.67755
+    x: 932.5985
+    y: 800.3587
     z: 0.0
   }
   rotation {

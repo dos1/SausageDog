@@ -21,7 +21,7 @@ instances {
 }
 scale_along_z: 0
 embedded_instances {
-  id: "go"
+  id: "bg"
   data: "embedded_components {\n"
   "  id: \"bg_pause\"\n"
   "  type: \"sprite\"\n"
