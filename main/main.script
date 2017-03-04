@@ -5,14 +5,17 @@ LEVELS_TO_SPEED_UP = 1
 
 GLOBAL_SPEED = START_SPEED
 
+local save_file = sys.get_save_file("my_game", "gamedata")
+
 function init(self)
 	-- set blue background
     msg.post("@render:", "clear_color", { color = vmath.vector4(0.52, 0.80, 1, 0) } )
-	msg.post(".", "acquire_input_focus")
+	msg.post(".", "acquire_input_focus") 
 	self.enemies = {}
 	self.score = 0
 	self.lifes = 3
 	self.counter = 0
+	self.highscore = sys.load(save_file)[1]
 	msg.post("#gui", "update_lifes", {self.lifes})
 	msg.post("#gui", "update_score", {self.score})
 end
@@ -50,7 +53,11 @@ function on_message(self, message_id, message, sender)
 			end
 		end
 	end
-	if message_id == hash("restart") then
+	if message_id == hash("restart") then 
+		if self.score > self.highscore then
+			sys.save(save_file, {self.score})
+			msg.post("#gui", "update_highscore", {self.score})
+		end
 		go.delete_all(self.enemies)
 		self.enemies = {}
 		msg.post("/factory_minilevels", "restart", {})
@@ -60,6 +67,7 @@ function on_message(self, message_id, message, sender)
 		GLOBAL_SPEED = START_SPEED
 		msg.post("#gui", "update_lifes", {self.lifes})
 		msg.post("#gui", "update_score", {self.score})
+		
 	end
 	if message_id == hash("add_score") then
 		self.score = self.score + message.amount

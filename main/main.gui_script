@@ -1,8 +1,14 @@
+local save_file = sys.get_save_file("my_game", "gamedata")
+
 function init(self)
 	self.score = -1
 	self.score_node = gui.get_node("score")
 	self.lifes = -1
 	self.lifes_node = gui.get_node("lifes")
+	self.highscore = -1
+	self.highscore_node = gui.get_node("highscore1")	
+	self.highscore = sys.load(save_file)[1]
+	gui.set_text(self.highscore_node, tostring(self.highscore))
 end
 
 local function scale_down(self, node)
@@ -22,5 +28,10 @@ function on_message(self, message_id, message, sender)
 		self.lifes = message[1]
 		gui.set_text(self.lifes_node, tostring(self.lifes))
 		gui.animate(self.lifes_node, gui.PROP_SCALE, vmath.vector4(s, s, s, 0), gui.EASING_OUT, 0.1, 0.0, scale_down)
+	end
+	if message_id == hash("update_highscore") then
+		self.highscore = message[1]
+		gui.set_text(self.highscore_node, tostring(self.highscore))
+		gui.animate(self.highscore_node, gui.PROP_SCALE, vmath.vector4(s, s, s, 0), gui.EASING_OUT, 0.1, 0.0, scale_down)
 	end
 end
