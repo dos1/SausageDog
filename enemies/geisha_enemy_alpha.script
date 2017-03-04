@@ -2,6 +2,7 @@ local speed = 220
 
 
 function init(self)
+	self.colided = false
 	msg.post("/main", "enemy_added", {})
 end
 
@@ -21,10 +22,10 @@ end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash("collision_response") then
-		if message.other_id == hash("/sausage_dog") then
+		if message.other_id == hash("/sausage_dog") and not self.colided then
 			
 			msg.post("/main", "remove_life", {})
-			go.delete()
+			self.colided = true
 		end
 	end
 end
