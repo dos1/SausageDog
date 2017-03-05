@@ -39,26 +39,6 @@ embedded_components {
   }
 }
 embedded_components {
-  id: "hs1"
-  type: "sprite"
-  data: "tile_set: \"/menu_alpha/rework/menu_rework.atlas\"\n"
-  "default_animation: \"newrecord\"\n"
-  "material: \"/builtins/materials/sprite.material\"\n"
-  "blend_mode: BLEND_MODE_ALPHA\n"
-  ""
-  position {
-    x: 985.57605
-    y: 327.13022
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-}
-embedded_components {
   id: "menu"
   type: "sprite"
   data: "tile_set: \"/menu_alpha/main_menu.atlas\"\n"
@@ -87,8 +67,8 @@ embedded_components {
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 1401.9717
-    y: 505.10037
+    x: 1421.5005
+    y: 400.94696
     z: 0.0
   }
   rotation {

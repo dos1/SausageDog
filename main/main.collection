@@ -63,8 +63,8 @@ instances {
   id: "sausage_dog"
   prototype: "/sausage_dog/sausage_dog.go"
   position {
-    x: 209.66061
-    y: 400.0
+    x: 215.0
+    y: 340.0
     z: 0.5
   }
   rotation {
@@ -103,7 +103,7 @@ scale_along_z: 0
 embedded_instances {
   id: "arrows"
   data: "embedded_components {\n"
-  "  id: \"sprite\"\n"
+  "  id: \"arrow_left\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/menu_alpha/main_menu.atlas\\\"\\n"
   "default_animation: \\\"button_arrow\\\"\\n"
@@ -111,8 +111,8 @@ embedded_instances {
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
   "  position {\n"
-  "    x: -94.900406\n"
-  "    y: 494.04037\n"
+  "    x: -2096.139\n"
+  "    y: 500.0\n"
   "    z: 0.0\n"
   "  }\n"
   "  rotation {\n"
@@ -123,7 +123,7 @@ embedded_instances {
   "  }\n"
   "}\n"
   "embedded_components {\n"
-  "  id: \"sprite1\"\n"
+  "  id: \"arrow_right\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/menu_alpha/main_menu.atlas\\\"\\n"
   "default_animation: \\\"button_arrow\\\"\\n"
@@ -131,8 +131,8 @@ embedded_instances {
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
   "  position {\n"
-  "    x: -2284.588\n"
-  "    y: -603.5945\n"
+  "    x: -221.67523\n"
+  "    y: 500.0\n"
   "    z: 0.0\n"
   "  }\n"
   "  rotation {\n"
@@ -142,11 +142,31 @@ embedded_instances {
   "    w: 0.70710677\n"
   "  }\n"
   "}\n"
+  "embedded_components {\n"
+  "  id: \"pause\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/menu_alpha/main_menu.atlas\\\"\\n"
+  "default_animation: \\\"button_pause\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -660.56506\n"
+  "    y: 513.3794\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
   ""
   position {
     x: 1920.0
     y: 591.3
-    z: 0.5
+    z: 1.0
   }
   rotation {
     x: 0.0

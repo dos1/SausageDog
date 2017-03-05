@@ -83,7 +83,7 @@ embedded_instances {
   "  data: \"sound: \\\"/music/gameover_music.ogg\\\"\\n"
   "looping: 1\\n"
   "group: \\\"master\\\"\\n"
-  "gain: 0.25118864\\n"
+  "gain: 1.0\\n"
   "\"\n"
   "  position {\n"
   "    x: 0.0\n"

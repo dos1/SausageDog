@@ -43,8 +43,8 @@ instances {
   id: "sushi_hs"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 288.24008
-    y: 552.68024
+    x: 260.8293
+    y: 728.1092
     z: 0.0
   }
   rotation {
@@ -63,8 +63,8 @@ instances {
   id: "sushi_hs1"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 635.2779
-    y: 613.57684
+    x: 602.38495
+    y: 662.91626
     z: 0.0
   }
   rotation {
@@ -83,8 +83,8 @@ instances {
   id: "sushi_hs2"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 680.1299
-    y: 376.47775
+    x: 658.2013
+    y: 414.85284
     z: 0.0
   }
   rotation {
@@ -103,8 +103,8 @@ instances {
   id: "sushi_hs3"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 316.1641
-    y: 324.1882
+    x: 464.18225
+    y: 159.72357
     z: 0.0
   }
   rotation {
@@ -123,8 +123,8 @@ instances {
   id: "sushi_hs4"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 872.3269
-    y: 596.49054
+    x: 981.97
+    y: 656.79425
     z: 0.0
   }
   rotation {
@@ -143,8 +143,8 @@ instances {
   id: "sushi_hs5"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 473.78647
-    y: 488.61966
+    x: 369.62552
+    y: 526.99475
     z: 0.0
   }
   rotation {
@@ -163,8 +163,8 @@ instances {
   id: "sushi_hs6"
   prototype: "/sushi/sushi_hs.go"
   position {
-    x: 874.89
-    y: 301.54874
+    x: 1017.426
+    y: 274.13797
     z: 0.0
   }
   rotation {
@@ -244,8 +244,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 244.47517
-    y: 452.076
+    x: 218.80035
+    y: 441.80606
     z: 0.0
   }
   rotation {
@@ -257,6 +257,126 @@ embedded_instances {
   scale3 {
     x: 0.25
     y: 0.25
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "dog2"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\n"
+  "default_animation: \\\"sausage_dog_anim_run\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -177.10506\n"
+  "    y: -451.88348\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 850.40076
+    y: 724.229
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.2
+    y: 0.2
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "dog3"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\n"
+  "default_animation: \\\"sausage_dog_anim_run\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -177.10506\n"
+  "    y: -451.88348\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 885.59576
+    y: 297.04877
+    z: 0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.35
+    y: 0.35
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "dog4"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\n"
+  "default_animation: \\\"sausage_dog_anim_run\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -177.10506\n"
+  "    y: -451.88348\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 152.04584
+    y: 755.0388
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.15
+    y: 0.15
     z: 1.0
   }
 }
