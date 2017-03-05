@@ -17,7 +17,7 @@ function update(self, dt)
 		go.delete()
 	end
 	go.set_position(p)
-	go.set_scale(1,1,1)
+	go.set_scale(1.4,1,1)
 end
 
 function on_message(self, message_id, message, sender)

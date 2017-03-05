@@ -3,6 +3,8 @@ local speed = 300
 function init(self)
 	self.colided = false
 	msg.post("/main", "enemy_added", {})
+	go.set(".", "euler.z", -5)
+	go.animate(".", "euler.z", go.PLAYBACK_LOOP_PINGPONG, 5, go.EASING_INOUTSINE, 2)
 end
 
 function final(self)

@@ -98,3 +98,23 @@ embedded_components {
     w: 1.0
   }
 }
+embedded_components {
+  id: "sushi_rotation"
+  type: "sound"
+  data: "sound: \"/sounds/sushi_rotation_sound.ogg\"\n"
+  "looping: 0\n"
+  "group: \"master\"\n"
+  "gain: 0.5011872\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}

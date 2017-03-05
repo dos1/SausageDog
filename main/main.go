@@ -34,7 +34,7 @@ embedded_components {
   data: "sound: \"/music/main_music_long.ogg\"\n"
   "looping: 0\n"
   "group: \"master\"\n"
-  "gain: 1.0\n"
+  "gain: 0.3548134\n"
   ""
   position {
     x: 0.0
@@ -54,7 +54,7 @@ embedded_components {
   data: "sound: \"/music/main_music_speed5.ogg\"\n"
   "looping: 1\n"
   "group: \"master\"\n"
-  "gain: 1.0\n"
+  "gain: 0.5011872\n"
   ""
   position {
     x: 0.0

@@ -61,12 +61,32 @@ embedded_components {
   }
 }
 embedded_components {
+  id: "dog_run_sound"
+  type: "sound"
+  data: "sound: \"/sounds/dog_run_sound_beta.ogg\"\n"
+  "looping: 1\n"
+  "group: \"dog_sound\"\n"
+  "gain: 0.56234133\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
   id: "dog_sound"
   type: "sound"
   data: "sound: \"/sounds/dog_sound_alpha.ogg\"\n"
   "looping: 1\n"
   "group: \"dog_sound\"\n"
-  "gain: 0.12589253\n"
+  "gain: 0.3548134\n"
   ""
   position {
     x: 0.0

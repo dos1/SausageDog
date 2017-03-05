@@ -34,7 +34,7 @@ animations {
     image: "/enemies/png_alpha_enemies/dragon_red/dragon_big_008.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 30
+  fps: 8
   flip_horizontal: 0
   flip_vertical: 0
 }
@@ -65,7 +65,7 @@ animations {
     image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_008.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 30
+  fps: 8
   flip_horizontal: 0
   flip_vertical: 0
 }

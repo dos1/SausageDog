@@ -2,7 +2,7 @@ local score = 1
 local speed = 180
 
 function init(self)
-	
+	msg.post("#sushi_rotation","play_sound")
 	go.animate(".", "euler.z", go.PLAYBACK_LOOP_BACKWARD, -720, go.EASING_LINEAR, 3)
 end
 
@@ -11,6 +11,7 @@ function update(self, dt)
 	p.x = p.x - (speed + GLOBAL_SPEED) * dt
 	if p.x < -32 then
 		go.delete()
+		msg.post("#sushi_rotation","stop_sound")
 	end
 	go.set_position(p)
 end
@@ -20,6 +21,8 @@ function on_message(self, message_id, message, sender)
 		if message.other_id == hash("/sausage_dog") then
 			msg.post("/main", "add_score", {amount = score})
 			msg.post("#sushi_eaten","play_sound")
+			msg.post("#sushi_rotation","stop_sound")
+			
 			go.delete()
 		end
 	end
