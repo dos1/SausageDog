@@ -1,0 +1,33 @@
+images {
+  image: "/menu_alpha/rework/button_no.png"
+}
+images {
+  image: "/menu_alpha/rework/button_playagain.png"
+}
+images {
+  image: "/menu_alpha/rework/gameover.png"
+}
+images {
+  image: "/menu_alpha/rework/gameover_boxred.png"
+}
+images {
+  image: "/menu_alpha/rework/menu.png"
+}
+images {
+  image: "/menu_alpha/rework/newrecord.png"
+}
+images {
+  image: "/menu_alpha/rework/play.png"
+}
+images {
+  image: "/menu_alpha/rework/resume.png"
+}
+images {
+  image: "/menu_alpha/rework/sushieaten.png"
+}
+images {
+  image: "/menu_alpha/rework/sushirecord.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0

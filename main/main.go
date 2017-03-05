@@ -52,7 +52,7 @@ embedded_components {
   id: "main_music_speed5"
   type: "sound"
   data: "sound: \"/music/main_music_speed5.ogg\"\n"
-  "looping: 0\n"
+  "looping: 1\n"
   "group: \"master\"\n"
   "gain: 1.0\n"
   ""

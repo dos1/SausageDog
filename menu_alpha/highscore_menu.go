@@ -1,8 +1,8 @@
 embedded_components {
   id: "hs"
   type: "sprite"
-  data: "tile_set: \"/menu_alpha/title.atlas\"\n"
-  "default_animation: \"title_best_distance\"\n"
+  data: "tile_set: \"/menu_alpha/rework/menu_rework.atlas\"\n"
+  "default_animation: \"sushirecord\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
@@ -21,8 +21,8 @@ embedded_components {
 embedded_components {
   id: "play"
   type: "sprite"
-  data: "tile_set: \"/menu_alpha/main_menu.atlas\"\n"
-  "default_animation: \"button_menu_hs\"\n"
+  data: "tile_set: \"/menu_alpha/rework/menu_rework.atlas\"\n"
+  "default_animation: \"menu\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
