@@ -1,9 +1,9 @@
-local speed = 500
+local speed = 100
 
 function update(self, dt)
 	local p = go.get_position()
 	-- apply the speed
-	p.x = p.x - (speed) * dt
+	p.x = p.x - (speed + GLOBAL_SPEED) * dt
 	-- reset clouds to far right when they reach the far left to create infinite scrolling
 	if p.x <= -1920 then
 		p.x = p.x + 1920
