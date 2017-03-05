@@ -90,7 +90,7 @@ animations {
     image: "/enemies/png_alpha_enemies/golden_cat/golden_cat_006.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 30
+  fps: 8
   flip_horizontal: 0
   flip_vertical: 0
 }
