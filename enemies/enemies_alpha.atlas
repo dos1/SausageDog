@@ -7,6 +7,68 @@ images {
 images {
   image: "/enemies/png_alpha_enemies/samurai_alpha_maly.png"
 }
+animations {
+  id: "dragon_red_anim"
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_red/dragon_big_001.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_red/dragon_big_002.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_red/dragon_big_003.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_red/dragon_big_004.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_red/dragon_big_005.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_red/dragon_big_006.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_red/dragon_big_007.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_red/dragon_big_008.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 30
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "dragon_green_anim"
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_001.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_002.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_003.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_004.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_005.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_006.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_007.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_008.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 30
+  flip_horizontal: 0
+  flip_vertical: 0
+}
 margin: 0
 extrude_borders: 1
 inner_padding: 0
