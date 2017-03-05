@@ -63,13 +63,19 @@ end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash("blink") then
-		go.animate("#sprite", "tint.w", go.PLAYBACK_ONCE_PINGPONG, 0.2, go.EASING_OUTSINE, 0.5, 0, function()
-			go.animate("#sprite", "tint.w", go.PLAYBACK_ONCE_PINGPONG, 0.2, go.EASING_OUTSINE, 0.5, 0, function()
+		go.animate("#sprite", "tint.w", go.PLAYBACK_ONCE_PINGPONG, 0, go.EASING_OUTSINE, 0.2, -3, function()
+			go.animate("#sprite", "tint.w", go.PLAYBACK_ONCE_PINGPONG, 0.1, go.EASING_OUTSINE, 0.2, 0, function()
+				go.animate("#sprite", "tint.w", go.PLAYBACK_ONCE_PINGPONG, 0.2, go.EASING_OUTSINE, 0.2, 0, function()
+					go.animate("#sprite", "tint.w", go.PLAYBACK_ONCE_PINGPONG, 0.3, go.EASING_OUTSINE, 0.2, 0, function()
+						go.animate("#sprite", "tint.w", go.PLAYBACK_ONCE_PINGPONG, 0.3, go.EASING_OUTSINE, 0.2, 0, function()
 				go.cancel_animations("#sprite", "tint.w")
 				go.set("#sprite", "tint.w", 1.0)
 			end)
 		end)
-	end
+	end)
+	end)
+	end)
+end
 end
 	
 
