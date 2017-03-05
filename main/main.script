@@ -88,6 +88,7 @@ function on_message(self, message_id, message, sender)
 		self.lifes = self.lifes - 1
 		msg.post("#gui", "update_lifes", {self.lifes})
 		msg.post("#remove_life","play_sound")
+		msg.post("sausage_dog", "blink")
 		if self.lifes <= 0 then
 			msg.post(".", "restart", {})
 		end
