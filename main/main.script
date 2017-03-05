@@ -1,6 +1,6 @@
 START_SPEED = 400
 MAX_SPEED = 1400
-SPEED_STEPS = 60
+SPEED_STEPS = 75
 LEVELS_TO_SPEED_UP = 1
 
 GLOBAL_SPEED = START_SPEED
@@ -23,6 +23,8 @@ function init(self)
 		
 	msg.post("#gui", "update_lifes", {self.lifes})
 	msg.post("#gui", "update_score", {self.score})
+	msg.post("#main_music_speed1","play_sound", {delay = 1})
+ 	msg.post("#main_music_speed5","play_sound", {delay = 155})
 end
 
 function update(self, dt)
@@ -58,7 +60,11 @@ function on_message(self, message_id, message, sender)
 			end
 		end
 	end
-	if message_id == hash("restart") then 
+	if message_id == hash("restart") then
+		msg.post("#main_music_speed1", "stop_sound")
+		msg.post("#main_music_speed5", "stop_sound")
+		msg.post("#main_music_speed1","play_sound", {delay = 1})
+  		msg.post("#main_music_speed5","play_sound", {delay = 155}) 
 		if self.score > self.highscore then
 			sys.save(save_file, {self.score})
 			msg.post("#gui", "update_highscore", {self.score})

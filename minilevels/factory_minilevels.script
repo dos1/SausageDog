@@ -6,7 +6,7 @@ local LEVELS = {
 	{ "#level_s3factory", "#level_s4factory", "#level_s5factory", "#level_s6factory", "#level_s7factory" }
 }
 
-local LEVELS_TO_UNLOCK_POOL = 5
+local LEVELS_TO_UNLOCK_POOL = 6
 	
 
 function init(self)

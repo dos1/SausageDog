@@ -1,9 +1,29 @@
 name: "default"
 instances {
-  id: "dragon_enemy_alpha"
-  prototype: "/enemies/dragon_enemy_alpha.go"
+  id: "geisha_enemy_alpha02"
+  prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 4600.0
+    x: 150.0
+    y: 345.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "geisha_enemy_alpha03"
+  prototype: "/enemies/geisha_enemy_alpha.go"
+  position {
+    x: 600.0
     y: 115.0
     z: 0.0
   }
@@ -20,51 +40,71 @@ instances {
   }
 }
 instances {
-  id: "samurai_enemy_alpha"
-  prototype: "/enemies/samurai_enemy_alpha.go"
+  id: "geisha_enemy_alpha3"
+  prototype: "/enemies/geisha_enemy_alpha.go"
   position {
-    x: 200.0
-    y: 575.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "samurai_enemy_alpha1"
-  prototype: "/enemies/samurai_enemy_alpha.go"
-  position {
-    x: 200.0
-    y: 805.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "samurai_enemy_alpha2"
-  prototype: "/enemies/samurai_enemy_alpha.go"
-  position {
-    x: 200.0
+    x: 1050.0
     y: 345.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "geisha_enemy_alpha4"
+  prototype: "/enemies/geisha_enemy_alpha.go"
+  position {
+    x: 1500.0
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha02"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 2350.2397
+    y: 345.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha03"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 2800.2397
+    y: 105.0
     z: 0.0
   }
   rotation {
@@ -83,8 +123,8 @@ instances {
   id: "samurai_enemy_alpha3"
   prototype: "/enemies/samurai_enemy_alpha.go"
   position {
-    x: 750.0
-    y: 115.0
+    x: 3250.2397
+    y: 345.0
     z: 0.0
   }
   rotation {
@@ -103,8 +143,8 @@ instances {
   id: "samurai_enemy_alpha4"
   prototype: "/enemies/samurai_enemy_alpha.go"
   position {
-    x: 900.0
-    y: 345.0
+    x: 3700.2397
+    y: 105.0
     z: 0.0
   }
   rotation {
@@ -120,11 +160,11 @@ instances {
   }
 }
 instances {
-  id: "samurai_enemy_alpha5"
-  prototype: "/enemies/samurai_enemy_alpha.go"
+  id: "sumo_enemy_alpha00"
+  prototype: "/enemies/sumo_enemy_alpha.go"
   position {
-    x: 1050.0
-    y: 575.0
+    x: 225.0
+    y: 685.0
     z: 0.0
   }
   rotation {
@@ -140,11 +180,11 @@ instances {
   }
 }
 instances {
-  id: "samurai_enemy_alpha6"
-  prototype: "/enemies/samurai_enemy_alpha.go"
+  id: "sumo_enemy_alpha01"
+  prototype: "/enemies/sumo_enemy_alpha.go"
   position {
-    x: 1900.0
-    y: 805.0
+    x: 600.0
+    y: 685.0
     z: 0.0
   }
   rotation {
@@ -160,11 +200,11 @@ instances {
   }
 }
 instances {
-  id: "samurai_enemy_alpha7"
-  prototype: "/enemies/samurai_enemy_alpha.go"
+  id: "sumo_enemy_alpha02"
+  prototype: "/enemies/sumo_enemy_alpha.go"
   position {
-    x: 1900.0
-    y: 575.0
+    x: 1425.0
+    y: 685.0
     z: 0.0
   }
   rotation {
@@ -180,11 +220,11 @@ instances {
   }
 }
 instances {
-  id: "samurai_enemy_alpha8"
-  prototype: "/enemies/samurai_enemy_alpha.go"
+  id: "sumo_enemy_alpha2"
+  prototype: "/enemies/sumo_enemy_alpha.go"
   position {
-    x: 1900.0
-    y: 345.0
+    x: 1014.0608
+    y: 685.0
     z: 0.0
   }
   rotation {
@@ -200,11 +240,11 @@ instances {
   }
 }
 instances {
-  id: "samurai_enemy_alpha9"
-  prototype: "/enemies/samurai_enemy_alpha.go"
+  id: "sumo_enemy_alpha3"
+  prototype: "/enemies/sumo_enemy_alpha.go"
   position {
-    x: 2500.0
-    y: 345.0
+    x: 1800.0
+    y: 685.0
     z: 0.0
   }
   rotation {

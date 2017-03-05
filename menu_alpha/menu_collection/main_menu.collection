@@ -61,6 +61,46 @@ instances {
 }
 scale_along_z: 0
 embedded_instances {
+  id: "main_manu_music"
+  data: "embedded_components {\n"
+  "  id: \"main_menu_music\"\n"
+  "  type: \"sound\"\n"
+  "  data: \"sound: \\\"/music/menu_and_highscore_music.ogg\\\"\\n"
+  "looping: 1\\n"
+  "group: \\\"master\\\"\\n"
+  "gain: 1.0\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 3845.33
+    y: 872.1312
+    z: -0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
   id: "sausage"
   data: "components {\n"
   "  id: \"script\"\n"

@@ -272,7 +272,7 @@ embedded_components {
 embedded_components {
   id: "level_b8factory"
   type: "collectionfactory"
-  data: "prototype: \"/minilevels/level_b8.collection\"\n"
+  data: "prototype: \"/minilevels/level_c2.collection\"\n"
   position {
     x: 0.0
     y: 0.0
@@ -320,7 +320,7 @@ embedded_components {
 embedded_components {
   id: "level_c2factory"
   type: "collectionfactory"
-  data: "prototype: \"/minilevels/level_c2.collection\"\n"
+  data: "prototype: \"/minilevels/level_b8.collection\"\n"
   position {
     x: 0.0
     y: 0.0
