@@ -16,15 +16,15 @@ components {
 embedded_components {
   id: "sprite"
   type: "sprite"
-  data: "tile_set: \"/background/background.atlas\"\n"
-  "default_animation: \"gb_beta2\"\n"
+  data: "tile_set: \"/background/background_para.atlas\"\n"
+  "default_animation: \"bg_para_1\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
     x: 960.0
     y: 540.0
-    z: -1.0
+    z: -0.8
   }
   rotation {
     x: 0.0
@@ -34,17 +34,17 @@ embedded_components {
   }
 }
 embedded_components {
-  id: "sprite2"
+  id: "sprite3"
   type: "sprite"
-  data: "tile_set: \"/background/background.atlas\"\n"
-  "default_animation: \"gb_beta2\"\n"
+  data: "tile_set: \"/background/background_para.atlas\"\n"
+  "default_animation: \"bg_para_1\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
     x: 2880.0
     y: 540.0
-    z: -1.0
+    z: -0.8
   }
   rotation {
     x: 0.0

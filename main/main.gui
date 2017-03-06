@@ -209,8 +209,8 @@ nodes {
 }
 nodes {
   position {
-    x: 761.8643
-    y: 1000.0
+    x: 810.3515
+    y: 999.38696
     z: 0.0
     w: 1.0
   }
@@ -240,7 +240,7 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "SUSHI!"
+  text: "x"
   font: "score"
   id: "score1"
   xanchor: XANCHOR_NONE
