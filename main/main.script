@@ -61,6 +61,7 @@ function on_message(self, message_id, message, sender)
 		end
 	end
 	if message_id == hash("restart") then
+		msg.post("#dying_dog", "play_sound")
 		msg.post("#main_music_speed1", "stop_sound")
 		msg.post("#main_music_speed5", "stop_sound")
 		msg.post("#main_music_speed1","play_sound", {delay = 1})

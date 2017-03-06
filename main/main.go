@@ -29,12 +29,32 @@ components {
   }
 }
 embedded_components {
+  id: "dying_dog"
+  type: "sound"
+  data: "sound: \"/sounds/sound_dying_dog.ogg\"\n"
+  "looping: 0\n"
+  "group: \"master\"\n"
+  "gain: 1.0\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
   id: "main_music_speed1"
   type: "sound"
   data: "sound: \"/music/main_music_long.ogg\"\n"
   "looping: 0\n"
   "group: \"master\"\n"
-  "gain: 0.3548134\n"
+  "gain: 0.4466836\n"
   ""
   position {
     x: 0.0
@@ -54,7 +74,7 @@ embedded_components {
   data: "sound: \"/music/main_music_speed5.ogg\"\n"
   "looping: 1\n"
   "group: \"master\"\n"
-  "gain: 0.5011872\n"
+  "gain: 0.63095737\n"
   ""
   position {
     x: 0.0

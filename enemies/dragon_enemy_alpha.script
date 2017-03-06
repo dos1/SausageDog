@@ -4,6 +4,7 @@ local speed = 670
 function init(self)
 	self.colided = false
 	msg.post("/main", "enemy_added", {})
+	msg.post("#dragon","play_sound")
 end
 
 function final(self)
@@ -13,8 +14,9 @@ end
 function update(self, dt)
 	local p = go.get_position()
 	p.x = p.x - (speed + GLOBAL_SPEED) * dt
-	if p.x < -92 then
+	if p.x < -115 then
 		go.delete()
+		msg.post("#dragon","stop_sound")
 	end
 	go.set_position(p)
 	go.set_scale(1.4,1,1)

@@ -104,7 +104,7 @@ embedded_components {
   data: "sound: \"/sounds/sushi_rotation_sound.ogg\"\n"
   "looping: 0\n"
   "group: \"master\"\n"
-  "gain: 0.5011872\n"
+  "gain: 0.3548134\n"
   ""
   position {
     x: 0.0

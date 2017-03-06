@@ -1,4 +1,4 @@
-local speed = 100
+local speed = 70
 
 function update(self, dt)
 	local p = go.get_position()

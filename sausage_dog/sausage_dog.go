@@ -66,7 +66,7 @@ embedded_components {
   data: "sound: \"/sounds/dog_run_sound_beta.ogg\"\n"
   "looping: 1\n"
   "group: \"dog_sound\"\n"
-  "gain: 0.56234133\n"
+  "gain: 0.4466836\n"
   ""
   position {
     x: 0.0
@@ -86,7 +86,7 @@ embedded_components {
   data: "sound: \"/sounds/dog_sound_alpha.ogg\"\n"
   "looping: 1\n"
   "group: \"dog_sound\"\n"
-  "gain: 0.3548134\n"
+  "gain: 0.25118864\n"
   ""
   position {
     x: 0.0
