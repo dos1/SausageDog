@@ -37,7 +37,7 @@ function on_message(self, message_id, message, sender)
 	end
 	if message_id == hash("spawn") then
 		local p = go.get_position()
-		p.x = 1920
+		p.x = 2120
 		p.y = 0
 		local possible_levels = {}
 				
