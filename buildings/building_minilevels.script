@@ -1,0 +1,66 @@
+
+local LEVELS = {
+	{ "#building1", "#building2", "#building3factory", "#building4factory", "building5factory", "#building6"}
+}
+
+local LEVELS_TO_UNLOCK_POOL = 6
+	
+
+function init(self)
+	self.timer = 0
+	self.current_pool = 1
+	self.counter = 0
+	self.history = {}
+	-- make the game deterministic
+	-- math.randomseed(0)
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("enemy_added") then
+		table.insert(self.enemies, sender)
+	end
+	if message_id == hash("enemy_removed") then
+		for i=1, #self.enemies do
+			if self.enemies[i]==sender then
+				table.remove(self.enemies, i)
+				break
+			end
+		end
+	end
+	if message_id == hash("restart") then
+		self.current_pool = 1
+		self.counter = 0
+		self.history = {}
+	end
+	if message_id == hash("spawn") then
+		local p = go.get_position()
+		p.x = 1920
+		p.y = 0
+		local possible_levels = {}
+				
+		for i=1, self.current_pool do
+			for j=1, #LEVELS[i] do
+				if LEVELS[i][j] ~= self.history[#self.history - 1] and LEVELS[i][j] ~= self.history[#self.history] then
+					possible_levels[#possible_levels+1]=LEVELS[i][j]
+				end
+			end
+		end
+		
+		local level = possible_levels[math.random(#possible_levels)]
+		self.history[#self.history + 1] = level
+		self.counter = self.counter + 1
+		if self.counter > LEVELS_TO_UNLOCK_POOL then
+			print("BOSS STAGE NOW - but not implemented yet :(")
+			self.current_pool = self.current_pool + 1
+			if self.current_pool > #LEVELS then
+				self.current_pool = #LEVELS
+			end
+			self.counter = 0
+		end
+		print(level)
+		local component = level
+		local list = collectionfactory.create(component, p)
+		self.current = list
+		--print(delay)	
+	end
+end

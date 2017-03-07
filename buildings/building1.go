@@ -1,6 +1,6 @@
 components {
   id: "script"
-  component: "/background/bg_para_scroll2.script"
+  component: "/buildings/building.script"
   position {
     x: 0.0
     y: 0.0
@@ -14,17 +14,17 @@ components {
   }
 }
 embedded_components {
-  id: "sprite2"
+  id: "sprite"
   type: "sprite"
-  data: "tile_set: \"/background/background_para.atlas\"\n"
-  "default_animation: \"bg_para_3\"\n"
+  data: "tile_set: \"/buildings/building.atlas\"\n"
+  "default_animation: \"building_1\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 960.0
-    y: 540.0
-    z: 0.0
+    x: 839.72546
+    y: 1400.0
+    z: 0.5
   }
   rotation {
     x: 0.0

@@ -1,0 +1,162 @@
+name: "default"
+instances {
+  id: "samurai_enemy_alpha00"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 142.48593
+    y: 805.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha01"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 635.52795
+    y: 345.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha03"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 142.48593
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha2"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1379.911
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha3"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1189.8252
+    y: 575.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha4"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1193.135
+    y: 115.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha5"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1365.934
+    y: 575.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "samurai_enemy_alpha6"
+  prototype: "/enemies/samurai_enemy_alpha.go"
+  position {
+    x: 1550.0476
+    y: 575.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+scale_along_z: 0

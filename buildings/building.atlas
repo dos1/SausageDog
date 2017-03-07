@@ -1,0 +1,21 @@
+images {
+  image: "/buildings/png_buldings/building_1.png"
+}
+images {
+  image: "/buildings/png_buldings/building_2.png"
+}
+images {
+  image: "/buildings/png_buldings/building_3.png"
+}
+images {
+  image: "/buildings/png_buldings/building_4.png"
+}
+images {
+  image: "/buildings/png_buldings/building_5.png"
+}
+images {
+  image: "/buildings/png_buldings/building_6.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0

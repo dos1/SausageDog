@@ -14,7 +14,47 @@ components {
   }
 }
 embedded_components {
-  id: "sprite"
+  id: "light1"
+  type: "sprite"
+  data: "tile_set: \"/background/background_para.atlas\"\n"
+  "default_animation: \"bg_light\"\n"
+  "material: \"/builtins/materials/sprite.material\"\n"
+  "blend_mode: BLEND_MODE_ALPHA\n"
+  ""
+  position {
+    x: 870.0
+    y: 860.0
+    z: -0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
+  id: "light2"
+  type: "sprite"
+  data: "tile_set: \"/background/background_para.atlas\"\n"
+  "default_animation: \"bg_light\"\n"
+  "material: \"/builtins/materials/sprite.material\"\n"
+  "blend_mode: BLEND_MODE_ALPHA\n"
+  ""
+  position {
+    x: 2790.0
+    y: 860.0
+    z: -0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
+  id: "sprite1"
   type: "sprite"
   data: "tile_set: \"/background/background_para.atlas\"\n"
   "default_animation: \"bg_para_1\"\n"
@@ -24,7 +64,7 @@ embedded_components {
   position {
     x: 960.0
     y: 540.0
-    z: -0.8
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -44,7 +84,7 @@ embedded_components {
   position {
     x: 2880.0
     y: 540.0
-    z: -0.8
+    z: 0.0
   }
   rotation {
     x: 0.0
