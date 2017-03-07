@@ -1,6 +1,6 @@
 [project]
 title = Sausage Dog Run
-version = 0.7
+version = 0.9
 
 [bootstrap]
 main_collection = /main/main.collectionc
