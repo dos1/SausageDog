@@ -1,12 +1,3 @@
-images {
-  image: "/enemies/png_alpha_enemies/dragon_alpha_3_big.png"
-}
-images {
-  image: "/enemies/png_alpha_enemies/dragon_alpha_3_little.png"
-}
-images {
-  image: "/enemies/png_alpha_enemies/samurai_alpha_maly.png"
-}
 animations {
   id: "dragon_red_anim"
   images {

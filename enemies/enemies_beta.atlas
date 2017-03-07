@@ -1,12 +1,3 @@
-images {
-  image: "/enemies/png_beta_enemies/sausage_beta.png"
-}
-images {
-  image: "/enemies/png_beta_enemies/sumo_beta.png"
-}
-images {
-  image: "/enemies/png_beta_enemies/geisha_beta_mala.png"
-}
 animations {
   id: "sumo_anim"
   images {

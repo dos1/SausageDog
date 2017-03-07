@@ -13,9 +13,6 @@ images {
 images {
   image: "/background/bg_para/bg_para_town.png"
 }
-images {
-  image: "/background/bg_para/bg_para_town_re.png"
-}
 margin: 0
 extrude_borders: 1
 inner_padding: 0

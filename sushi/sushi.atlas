@@ -1,6 +1,6 @@
 images {
   image: "/sushi/png_alpha_sushi/sushi_sprite.png"
 }
-images {
-  image: "/sushi/png_alpha_sushi/sushi_alpha2.png"
-}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
