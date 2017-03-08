@@ -1,0 +1,177 @@
+name: "default"
+instances {
+  id: "bg_alpha_scroll_hsmenu"
+  prototype: "/background/bg_alpha_scroll_hsmenu.go"
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "highscore_menu"
+  prototype: "/menu/highscore_menu.go"
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 260.8293
+    y: 728.1092
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs1"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 602.38495
+    y: 662.91626
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs2"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 658.2013
+    y: 414.85284
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs3"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 464.18225
+    y: 159.72357
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs4"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 981.97
+    y: 656.79425
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs5"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 369.62552
+    y: 526.99475
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sushi_hs6"
+  prototype: "/sushi/sushi_hs.go"
+  position {
+    x: 1017.426
+    y: 274.13797
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "dog"
+  data: "embedded_components {\n  id: \"sprite\"\n  type: \"sprite\"\n  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\ndefault_animation: \\\"sausage_dog_anim_run\\\"\\nmaterial: \\\"/builtins/materials/sprite.material\\\"\\nblend_mode: BLEND_MODE_ALPHA\\n\"\n  position {\n    x: -177.10506\n    y: -451.88348\n    z: 0.0\n  }\n  rotation {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n    w: 1.0\n  }\n}\n"
+  position {
+    x: 166.701
+    y: 430.5578
+    z: 0.1
+  }
+  scale3 {
+    x: 0.3
+    y: 0.3
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "dog1"
+  data: "embedded_components {\n  id: \"sprite\"\n  type: \"sprite\"\n  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\ndefault_animation: \\\"sausage_dog_anim_run\\\"\\nmaterial: \\\"/builtins/materials/sprite.material\\\"\\nblend_mode: BLEND_MODE_ALPHA\\n\"\n  position {\n    x: -177.10506\n    y: -451.88348\n    z: 0.0\n  }\n  rotation {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n    w: 1.0\n  }\n}\n"
+  position {
+    x: 218.80035
+    y: 441.80606
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "dog2"
+  data: "embedded_components {\n  id: \"sprite\"\n  type: \"sprite\"\n  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\ndefault_animation: \\\"sausage_dog_anim_run\\\"\\nmaterial: \\\"/builtins/materials/sprite.material\\\"\\nblend_mode: BLEND_MODE_ALPHA\\n\"\n  position {\n    x: -177.10506\n    y: -451.88348\n    z: 0.0\n  }\n  rotation {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n    w: 1.0\n  }\n}\n"
+  position {
+    x: 850.40076
+    y: 724.229
+  }
+  scale3 {
+    x: 0.2
+    y: 0.2
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "dog3"
+  data: "embedded_components {\n  id: \"sprite\"\n  type: \"sprite\"\n  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\ndefault_animation: \\\"sausage_dog_anim_run\\\"\\nmaterial: \\\"/builtins/materials/sprite.material\\\"\\nblend_mode: BLEND_MODE_ALPHA\\n\"\n  position {\n    x: -177.10506\n    y: -451.88348\n    z: 0.0\n  }\n  rotation {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n    w: 1.0\n  }\n}\n"
+  position {
+    x: 885.59576
+    y: 297.04877
+    z: 0.1
+  }
+  scale3 {
+    x: 0.35
+    y: 0.35
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "dog4"
+  data: "embedded_components {\n  id: \"sprite\"\n  type: \"sprite\"\n  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\ndefault_animation: \\\"sausage_dog_anim_run\\\"\\nmaterial: \\\"/builtins/materials/sprite.material\\\"\\nblend_mode: BLEND_MODE_ALPHA\\n\"\n  position {\n    x: -177.10506\n    y: -451.88348\n    z: 0.0\n  }\n  rotation {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n    w: 1.0\n  }\n}\n"
+  position {
+    x: 152.04584
+    y: 755.0388
+  }
+  scale3 {
+    x: 0.15
+    y: 0.15
+    z: 1.0
+  }
+}

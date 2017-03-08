@@ -30,7 +30,7 @@ end
 function update(self, dt)
 	local spawn = true
 	for i=1, #self.enemies do 
-		if go.get_position(self.enemies[i]).x >= 1500 then
+		if go.get_position(self.enemies[i]).x >= 1300 then
 			spawn = false
 		end
 	end

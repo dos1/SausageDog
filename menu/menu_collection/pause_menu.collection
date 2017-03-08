@@ -1,0 +1,23 @@
+name: "default"
+instances {
+  id: "pause_menu"
+  prototype: "/menu/pause_menu.go"
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "bg"
+  data: "embedded_components {\n  id: \"bg_pause\"\n  type: \"sprite\"\n  data: \"tile_set: \\\"/menu/title.atlas\\\"\\ndefault_animation: \\\"bg_pause\\\"\\nblend_mode: BLEND_MODE_ADD\\n\"\n  position {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n  }\n  rotation {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n    w: 1.0\n  }\n}\n"
+  position {
+    x: 951.9164
+    y: 527.7583
+  }
+  scale3 {
+    x: 1.2
+    y: 1.2
+    z: 1.0
+  }
+}

@@ -203,7 +203,7 @@ instances {
   id: "dragon_enemy_alpha9"
   prototype: "/enemies/dragon_enemy_alpha.go"
   position {
-    x: 6510.94
+    x: 6650.0
     y: 805.0
     z: 0.0
   }

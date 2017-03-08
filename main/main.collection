@@ -105,7 +105,7 @@ embedded_instances {
   data: "embedded_components {\n"
   "  id: \"arrow_left\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/menu_alpha/main_menu.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/menu/main_menu.atlas\\\"\\n"
   "default_animation: \\\"button_arrow\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -125,7 +125,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"arrow_right\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/menu_alpha/main_menu.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/menu/main_menu.atlas\\\"\\n"
   "default_animation: \\\"button_arrow\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -145,7 +145,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"pause\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/menu_alpha/main_menu.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/menu/main_menu.atlas\\\"\\n"
   "default_animation: \\\"button_pause\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -256,7 +256,7 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "sushi"
+  id: "ui_sushi"
   data: "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
@@ -292,6 +292,46 @@ embedded_instances {
   scale3 {
     x: 0.6
     y: 0.6
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "ui_dog"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\n"
+  "default_animation: \\\"sausage_beta\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 2097.2734\n"
+  "    y: 944.45325\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 765.0
+    y: 855.0
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.15
+    y: 0.15
     z: 1.0
   }
 }

@@ -1,0 +1,15 @@
+images {
+  image: "/menu/png_menu_alpha/pause/title_pause.png"
+}
+images {
+  image: "/menu/png_menu_alpha/main_menu/title_sausage.png"
+}
+images {
+  image: "/menu/png_menu_alpha/pause/bg_pause.png"
+}
+images {
+  image: "/menu/png_menu_alpha/highscore/titile_highscore.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0

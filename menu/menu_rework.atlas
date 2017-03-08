@@ -1,0 +1,33 @@
+images {
+  image: "/menu/rework/button_playagain.png"
+}
+images {
+  image: "/menu/rework/gameover.png"
+}
+images {
+  image: "/menu/rework/gameover_boxred.png"
+}
+images {
+  image: "/menu/rework/menu.png"
+}
+images {
+  image: "/menu/rework/newrecord.png"
+}
+images {
+  image: "/menu/rework/play.png"
+}
+images {
+  image: "/menu/rework/resume.png"
+}
+images {
+  image: "/menu/rework/sushirecord.png"
+}
+images {
+  image: "/menu/rework/kreski.png"
+}
+images {
+  image: "/menu/rework/kreski_white.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
