@@ -19,3 +19,6 @@ debug = 0
 [script]
 shared_state = 1
 
+[tracking]
+app_id = 0E548E5C8DFBA54C
+
