@@ -15,6 +15,7 @@ function update(self, dt)
 		local p = go.get_position()
 		
 		p.x = (a[math.random(1,#a)])
+		p.z = 0
 		local component = (level[math.random(1,#level)])
 		local spawn = factory.create(component, p)
 	end
