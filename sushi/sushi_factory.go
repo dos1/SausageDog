@@ -1,6 +1,6 @@
 components {
   id: "script"
-  component: "/sushi/factory.script"
+  component: "/sushi/sushi_factory.script"
   position {
     x: 0.0
     y: 0.0
@@ -17,7 +17,6 @@ embedded_components {
   id: "sushi_factory"
   type: "factory"
   data: "prototype: \"/sushi/sushi.go\"\n"
-  ""
   position {
     x: 0.0
     y: 0.0

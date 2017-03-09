@@ -22,6 +22,9 @@ images {
 images {
   image: "/menu/rework/sound_off.png"
 }
+images {
+  image: "/menu/rework/eat_sushi.png"
+}
 margin: 0
 extrude_borders: 0
 inner_padding: 0
