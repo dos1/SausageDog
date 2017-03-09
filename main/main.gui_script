@@ -14,6 +14,7 @@ function init(self)
 		self.highscore = sys.load(save_file)[1]
 	end
 	gui.set_text(self.highscore_node, tostring(self.highscore))
+	gui.set_enabled(gui.get_node("box"), false)
 end
 
 local function scale_down(self, node)
@@ -39,4 +40,11 @@ function on_message(self, message_id, message, sender)
 		gui.set_text(self.highscore_node, tostring(self.highscore))
 		gui.animate(self.highscore_node, gui.PROP_SCALE, vmath.vector4(s, s, s, 0), gui.EASING_OUT, 0.1, 0.0, scale_down)
 	end
+	if message_id == hash("enable") then
+		gui.set_enabled(gui.get_node("box"), true)
+	end
+	if message_id == hash("disable") then
+		gui.set_enabled(gui.get_node("box"), false)
+	end
+	
 end

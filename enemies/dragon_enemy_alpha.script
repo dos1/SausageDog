@@ -9,6 +9,7 @@ end
 
 function final(self)
 	msg.post("/main", "enemy_removed", {})
+	msg.post("#dragon","stop_sound")
 end
 
 function update(self, dt)
@@ -16,7 +17,6 @@ function update(self, dt)
 	p.x = p.x - (speed + GLOBAL_SPEED) * dt
 	if p.x < -115 then
 		go.delete()
-		msg.post("#dragon","stop_sound")
 	end
 	go.set_position(p)
 	go.set_scale(1.4,1,1)

@@ -35,6 +35,13 @@ function update(self, dt)
 	else
 		self.on_track = true
 	end
+	if GAME_STARTED then
+		if p.x < 215 then
+			p.x = p.x + 500 * dt
+		end
+	else
+		p.x = - 100
+	end
 	go.set_position(p)
 end
 

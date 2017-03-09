@@ -17,7 +17,6 @@ function update(self, dt)
 	p.x = p.x - (speed + GLOBAL_SPEED) * dt
 	if p.x < -92 then
 		go.delete()
-		msg.post("#geisha","stop_sound")
 	end
 	go.set_position(p)
 	go.set_scale(1,1,1)

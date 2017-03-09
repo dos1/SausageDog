@@ -25,7 +25,7 @@ instances {
   position {
     x: 0.0
     y: 0.0
-    z: 0.0
+    z: -1.0
   }
   rotation {
     x: 0.0
@@ -43,7 +43,7 @@ instances {
   id: "sausage_dog"
   prototype: "/sausage_dog/sausage_dog.go"
   position {
-    x: 215.0
+    x: -100.0
     y: 340.0
     z: 0.5
   }
@@ -79,13 +79,33 @@ instances {
     z: 1.0
   }
 }
+instances {
+  id: "view_factory"
+  prototype: "/main/view_factory.go"
+  position {
+    x: 0.0
+    y: 0.0
+    z: 1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 collection_instances {
   id: "bg_para"
   collection: "/background/bg_para.collection"
   position {
     x: 0.0
     y: 0.0
-    z: 0.5
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -256,46 +276,6 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "ui_sushi"
-  data: "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/sushi/sushi.atlas\\\"\\n"
-  "default_animation: \\\"sushi_sprite\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 759.0\n"
-  "    y: 1001.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 291.07693
-    y: 393.83832
-    z: 0.5
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.6
-    y: 0.6
-    z: 1.0
-  }
-}
-embedded_instances {
   id: "ui_dog"
   data: "embedded_components {\n"
   "  id: \"sprite\"\n"
@@ -332,6 +312,46 @@ embedded_instances {
   scale3 {
     x: 0.15
     y: 0.15
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "ui_sushi"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/sushi/sushi.atlas\\\"\\n"
+  "default_animation: \\\"sushi_sprite\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 759.0\n"
+  "    y: 1001.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 291.07693
+    y: 393.83832
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.6
+    y: 0.6
     z: 1.0
   }
 }
