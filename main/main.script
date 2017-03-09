@@ -2,6 +2,7 @@ START_SPEED = 400
 MAX_SPEED = 1400
 SPEED_STEPS = 75
 LEVELS_TO_SPEED_UP = 1
+GAME_STARTED = false
 
 GLOBAL_SPEED = START_SPEED
 
@@ -20,12 +21,15 @@ function init(self)
 	else
 		self.highscore = sys.load(save_file)[1]
 	end
-	
-		
+	--msg.post("@system:", "toggle_profile")
 	msg.post("#gui", "update_lifes", {self.lifes})
 	msg.post("#gui", "update_score", {self.score})
-	msg.post("#main_music_speed1","play_sound", {delay = 1})
- 	msg.post("#main_music_speed5","play_sound", {delay = 155})
+	
+	msg.post("/view_factory#mainmenuproxy", "load", {})
+	
+	
+	--msg.post("#main_music_speed1","play_sound", {delay = 1})
+ 	--msg.post("#main_music_speed5","play_sound", {delay = 155})
 end
 
 function update(self, dt)
@@ -35,7 +39,8 @@ function update(self, dt)
 			spawn = false
 		end
 	end
-	if spawn then
+	
+	if spawn and GAME_STARTED then
 		self.counter = self.counter + 1
 		msg.post("/factory_minilevels", "spawn", {})
 		if self.counter == LEVELS_TO_SPEED_UP then
@@ -47,6 +52,7 @@ function update(self, dt)
 			print("Speed up!", GLOBAL_SPEED)
 		end
 	end
+	
 end
 
 function on_message(self, message_id, message, sender)
@@ -61,7 +67,27 @@ function on_message(self, message_id, message, sender)
 			end
 		end
 	end
+	
+    if message_id == hash("proxy_loaded") then
+        -- New world is loaded. Init and enable it.
+        msg.post(sender, "enable")
+    end
+	
+	if message_id == hash("stop") then
+		msg.post("#main_music_speed1", "stop_sound")
+		msg.post("#main_music_speed5", "stop_sound")
+		go.delete_all(self.enemies)
+		self.enemies = {}
+		GAME_STARTED = false
+		msg.post("/view_factory#mainmenuproxy", "load", {})
+		msg.post("#gui", "disable", {})
+	end
+	
 	if message_id == hash("restart") then
+		GAME_STARTED = true
+		msg.post("#gui", "enable", {})
+		msg.post("/view_factory#mainmenuproxy", "disable", {})
+		msg.post("/view_factory#mainmenuproxy", "unload", {})
 		msg.post("#dying_dog", "play_sound")
 		msg.post("#main_music_speed1", "stop_sound")
 		msg.post("#main_music_speed5", "stop_sound")
@@ -92,7 +118,7 @@ function on_message(self, message_id, message, sender)
 		msg.post("#remove_life","play_sound")
 		msg.post("sausage_dog", "blink")
 		if self.lifes <= 0 then
-			msg.post(".", "restart", {})
+			msg.post(".", "stop")
 		end
 	end
 
@@ -107,6 +133,18 @@ function on_input(self, action_id, action)
 		return true
 	end
 	
+	if action_id == hash("touch") and #action.touch >= 1 then
+        if not GAME_STARTED then
+        	msg.post(".", "restart")
+        end
+    end
+    
+    if action_id == hash("mouse") then
+        if not GAME_STARTED then
+        	msg.post(".", "restart")
+        end
+    end
+	
 	if action.pressed then
 		if action_id == hash("left") then
 			GLOBAL_SPEED = GLOBAL_SPEED - 50
@@ -115,7 +153,11 @@ function on_input(self, action_id, action)
 			GLOBAL_SPEED = GLOBAL_SPEED + 50
 			print(GLOBAL_SPEED)
 		elseif action_id == hash("space") then
-			msg.post(".", "restart")
+			if GAME_STARTED then
+				msg.post(".", "stop")
+			else
+				msg.post(".", "restart")
+			end
 		end
 	end
 	return false
