@@ -11,8 +11,8 @@ game_binding = /input/game.input_bindingc
 [display]
 width = 1920
 height = 1080
-variable_dt = 1
-high_dpi = 1
+variable_dt = 0
+high_dpi = 0
 
 [physics]
 scale = 0.02
@@ -26,4 +26,5 @@ app_id = 0E548E5C8DFBA54C
 
 [sound]
 max_sound_buffers = 64
+max_sound_sources = 32
 
