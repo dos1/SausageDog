@@ -1,0 +1,18 @@
+local speed = 70
+
+function init(self)
+	
+end
+
+function update(self, dt)
+	local p = go.get_position()
+	p.y = 1002
+	p.x = p.x - (speed + GLOBAL_SPEED) * dt
+	if p.x < -140 then
+		go.delete()
+		
+	end
+	go.set_position(p)
+	go.set_scale(0.6,1,1)
+end
+

@@ -1,3 +1,18 @@
+components {
+  id: "script"
+  component: "/buildings/building6.script"
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
 embedded_components {
   id: "sprite"
   type: "sprite"
@@ -7,9 +22,9 @@ embedded_components {
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
-    x: 839.72546
-    y: 1439.5294
-    z: 0.0
+    x: 0.0
+    y: 0.0
+    z: -0.2
   }
   rotation {
     x: 0.0

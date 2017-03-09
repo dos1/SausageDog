@@ -20,6 +20,7 @@ function init(self)
 	else
 		self.highscore = sys.load(save_file)[1]
 	end
+	
 		
 	msg.post("#gui", "update_lifes", {self.lifes})
 	msg.post("#gui", "update_score", {self.score})
