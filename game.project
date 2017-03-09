@@ -22,3 +22,6 @@ shared_state = 1
 [tracking]
 app_id = 0E548E5C8DFBA54C
 
+[sound]
+max_sound_buffers = 64
+
