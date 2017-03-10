@@ -137,8 +137,8 @@ function on_message(self, message_id, message, sender)
 		msg.post("#gui", "update_score", {self.score})
 	end
 	if message_id == hash("remove_life") then
-		msg.post("#remove_life","play_sound")
 		if not GOD_MODE then
+			msg.post("#remove_life","play_sound")
 			self.lifes = self.lifes - 1
 			msg.post("#gui", "update_lifes", {self.lifes})
 			msg.post("sausage_dog", "blink")
