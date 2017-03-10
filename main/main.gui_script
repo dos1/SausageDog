@@ -7,6 +7,7 @@ function init(self)
 	self.lifes_node = gui.get_node("lifes")
 	self.highscore = -1
 	self.highscore_node = gui.get_node("highscore1")
+	self.highscore_node2 = gui.get_node("highscore2")
 	print(sys.load(save_file)[1] == nil)
 	if sys.load(save_file)[1] == nil then
 		self.highscore = 0
@@ -14,6 +15,7 @@ function init(self)
 		self.highscore = sys.load(save_file)[1]
 	end
 	gui.set_text(self.highscore_node, tostring(self.highscore))
+	gui.set_text(self.highscore_node2, tostring(self.highscore))
 	gui.set_enabled(gui.get_node("box"), false)
 end
 
@@ -38,13 +40,16 @@ function on_message(self, message_id, message, sender)
 	if message_id == hash("update_highscore") then
 		self.highscore = message[1]
 		gui.set_text(self.highscore_node, tostring(self.highscore))
+		gui.set_text(self.highscore_node2, tostring(self.highscore))
 		gui.animate(self.highscore_node, gui.PROP_SCALE, vmath.vector4(s, s, s, 0), gui.EASING_OUT, 0.1, 0.0, scale_down)
 	end
 	if message_id == hash("enable") then
 		gui.set_enabled(gui.get_node("box"), true)
+		gui.set_enabled(gui.get_node("highscore2"), false)
 	end
 	if message_id == hash("disable") then
 		gui.set_enabled(gui.get_node("box"), false)
+		gui.set_enabled(gui.get_node("highscore2"), true)
 	end
 	
 end
