@@ -1,6 +1,6 @@
 components {
   id: "script"
-  component: "/background/bg_alpha_scroll.script"
+  component: "/background/bg_alpha_scroll_mainmenu.script"
   position {
     x: 0.0
     y: 0.0

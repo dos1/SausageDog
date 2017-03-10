@@ -120,6 +120,26 @@ instances {
   }
 }
 collection_instances {
+  id: "arrows1"
+  collection: "/main/arrows.collection"
+  position {
+    x: 440.3607
+    y: 444.1097
+    z: 0.75
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+collection_instances {
   id: "bg_para"
   collection: "/background/bg_para.collection"
   position {
@@ -139,74 +159,13 @@ collection_instances {
     z: 1.0
   }
 }
-scale_along_z: 0
-embedded_instances {
-  id: "arrows"
-  data: "embedded_components {\n"
-  "  id: \"arrow_left\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/menu/main_menu.atlas\\\"\\n"
-  "default_animation: \\\"button_arrow\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: -2096.139\n"
-  "    y: 500.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 1.0\n"
-  "    w: 6.123234E-17\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"arrow_right\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/menu/main_menu.atlas\\\"\\n"
-  "default_animation: \\\"button_arrow\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: -221.67523\n"
-  "    y: 500.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"pause\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/menu/main_menu.atlas\\\"\\n"
-  "default_animation: \\\"button_pause\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: -660.56506\n"
-  "    y: 513.3794\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
+collection_instances {
+  id: "icons"
+  collection: "/main/icons.collection"
   position {
-    x: 1920.0
-    y: 591.3
-    z: 1.0
+    x: 746.3467
+    y: 993.2786
+    z: 0.7
   }
   rotation {
     x: 0.0
@@ -215,11 +174,12 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.8
-    y: 0.8
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
+scale_along_z: 0
 embedded_instances {
   id: "music"
   data: "components {\n"
@@ -292,86 +252,6 @@ embedded_instances {
   scale3 {
     x: 1.0
     y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "ui_dog"
-  data: "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/sausage_dog/sausage_dog.atlas\\\"\\n"
-  "default_animation: \\\"sausage_beta\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 2097.2734\n"
-  "    y: 944.45325\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 765.0
-    y: 855.0
-    z: 0.5
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.15
-    y: 0.15
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "ui_sushi"
-  data: "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/sushi/sushi.atlas\\\"\\n"
-  "default_animation: \\\"sushi_sprite\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 759.0\n"
-  "    y: 1001.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 291.07693
-    y: 393.83832
-    z: 0.5
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.6
-    y: 0.6
     z: 1.0
   }
 }
