@@ -3,6 +3,8 @@ MAX_SPEED = 1400
 SPEED_STEPS = 75
 LEVELS_TO_SPEED_UP = 1
 GAME_STARTED = false
+IN_MENU = true
+GOD_MODE = false
 
 GLOBAL_SPEED = START_SPEED
 
@@ -26,8 +28,8 @@ function init(self)
 	msg.post("#gui", "update_score", {self.score})
 	
 	msg.post("/view_factory#mainmenuproxy", "load", {})
-	
-	
+			msg.post("#menu_music","play_sound")
+		
 	--msg.post("#main_music_speed1","play_sound", {delay = 1})
  	--msg.post("#main_music_speed5","play_sound", {delay = 155})
 end
@@ -76,30 +78,43 @@ function on_message(self, message_id, message, sender)
 	if message_id == hash("stop") then
 		msg.post("#main_music_speed1", "stop_sound")
 		msg.post("#main_music_speed5", "stop_sound")
+		msg.post("#menu_music","play_sound")
 		go.delete_all(self.enemies)
 		self.enemies = {}
 		GAME_STARTED = false
-		msg.post("/view_factory#mainmenuproxy", "load", {})
+		msg.post("/view_factory#mainmenuproxy", "enable", {})
 		msg.post("#gui", "disable", {})
+		IN_MENU = true
 	end
 	
 	if message_id == hash("restart") then
-		GAME_STARTED = true
 		msg.post("#gui", "enable", {})
 		msg.post("/view_factory#mainmenuproxy", "disable", {})
-		msg.post("/view_factory#mainmenuproxy", "unload", {})
-		msg.post("#dying_dog", "play_sound")
+		--msg.post("/view_factory#mainmenuproxy", "unload", {})
+		msg.post("#menu_music","stop_sound")
 		msg.post("#main_music_speed1", "stop_sound")
 		msg.post("#main_music_speed5", "stop_sound")
-		msg.post("#main_music_speed1","play_sound", {delay = 1})
-  		msg.post("#main_music_speed5","play_sound", {delay = 155}) 
+		msg.post("#main_music_speed1","play_sound", {delay = 2})
+  		msg.post("#main_music_speed5","play_sound", {delay = 156}) 
+  		IN_MENU = false
 		if self.score > self.highscore then
 			sys.save(save_file, {self.score})
 			msg.post("#gui", "update_highscore", {self.score})
 		end
 		go.delete_all(self.enemies)
 		self.enemies = {}
-		msg.post("/factory_minilevels", "restart", {})
+			msg.post("/factory_minilevels", "restart", {})
+			
+					msg.post("/arrows/arrows#script", "show", {})
+							msg.post("/arrows/arrows1#script", "show", {})
+							msg.post("/arrows/eat_sushi#script", "show", {})
+							msg.post("/arrows/eat_sushi1#script", "show", {})
+		
+		--go.animate("/dummy_go", "position.z", go.PLAYBACK_ONCE_FORWARD, 0, go.EASING_LINEAR, 3, 0, function ()
+		--	GAME_STARTED = true
+		--end)
+		
+		
 		self.lifes = 3
 		self.score = 0
 		self.counter  = 0
@@ -108,17 +123,29 @@ function on_message(self, message_id, message, sender)
 		msg.post("#gui", "update_score", {self.score})
 		
 	end
+	
+	        if message_id == hash("god_mode") then
+    	GOD_MODE = true
+    end
+    
+        if message_id == hash("dog_mode") then
+    	GOD_MODE = false
+    end
+	
 	if message_id == hash("add_score") then
 		self.score = self.score + message.amount
 		msg.post("#gui", "update_score", {self.score})
 	end
 	if message_id == hash("remove_life") then
-		self.lifes = self.lifes - 1
-		msg.post("#gui", "update_lifes", {self.lifes})
 		msg.post("#remove_life","play_sound")
-		msg.post("sausage_dog", "blink")
-		if self.lifes <= 0 then
-			msg.post(".", "stop")
+		if not GOD_MODE then
+			self.lifes = self.lifes - 1
+			msg.post("#gui", "update_lifes", {self.lifes})
+			msg.post("sausage_dog", "blink")
+			if self.lifes <= 0 then
+				msg.post("#dying_dog", "play_sound")
+				msg.post(".", "stop")
+			end
 		end
 	end
 
@@ -134,16 +161,17 @@ function on_input(self, action_id, action)
 	end
 	
 	if action_id == hash("touch") and #action.touch >= 1 then
-        if not GAME_STARTED then
+        if IN_MENU then
         	msg.post(".", "restart")
         end
     end
     
     if action_id == hash("mouse") then
-        if not GAME_STARTED then
+        if IN_MENU then
         	msg.post(".", "restart")
         end
     end
+   
 	
 	if action.pressed then
 		if action_id == hash("left") then
@@ -153,7 +181,7 @@ function on_input(self, action_id, action)
 			GLOBAL_SPEED = GLOBAL_SPEED + 50
 			print(GLOBAL_SPEED)
 		elseif action_id == hash("space") then
-			if GAME_STARTED then
+			if not IN_MENU then
 				msg.post(".", "stop")
 			else
 				msg.post(".", "restart")

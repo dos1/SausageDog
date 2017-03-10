@@ -181,6 +181,26 @@ collection_instances {
 }
 scale_along_z: 0
 embedded_instances {
+  id: "dummy_go"
+  data: ""
+  position {
+    x: 1842.5
+    y: 591.3
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
   id: "music"
   data: "components {\n"
   "  id: \"script\"\n"
