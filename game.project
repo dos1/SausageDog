@@ -28,3 +28,6 @@ app_id = 0E548E5C8DFBA54C
 max_sound_buffers = 64
 max_sound_sources = 32
 
+[android]
+package = net.dosowisko.sausagedog
+
