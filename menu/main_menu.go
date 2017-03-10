@@ -28,7 +28,7 @@ embedded_components {
   ""
   position {
     x: 457.64578
-    y: 114.71041
+    y: -400.0
     z: 0.0
   }
   rotation {
@@ -48,7 +48,7 @@ embedded_components {
   ""
   position {
     x: 457.804
-    y: 114.73333
+    y: -400.0
     z: -0.1
   }
   rotation {
@@ -88,7 +88,7 @@ embedded_components {
   ""
   position {
     x: 770.92896
-    y: 114.65449
+    y: -400.0
     z: 0.0
   }
   rotation {
@@ -108,7 +108,7 @@ embedded_components {
   ""
   position {
     x: 769.93066
-    y: 114.73333
+    y: -400.0
     z: -0.1
   }
   rotation {
