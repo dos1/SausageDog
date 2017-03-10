@@ -1,0 +1,34 @@
+animations {
+  id: "dragon_green_anim"
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_001.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_002.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_003.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_004.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_005.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_006.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_007.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/dragon_green/dragon_small_008.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 8
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 1
+inner_padding: 0

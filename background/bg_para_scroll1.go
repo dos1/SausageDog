@@ -1,7 +1,7 @@
 embedded_components {
   id: "sprite1"
   type: "sprite"
-  data: "tile_set: \"/background/background_para.atlas\"\n"
+  data: "tile_set: \"/background/background_para_2.atlas\"\n"
   "default_animation: \"bg_para_2\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
@@ -21,7 +21,7 @@ embedded_components {
 embedded_components {
   id: "sprite4"
   type: "sprite"
-  data: "tile_set: \"/background/background_para.atlas\"\n"
+  data: "tile_set: \"/background/background_para_2.atlas\"\n"
   "default_animation: \"bg_para_2\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"

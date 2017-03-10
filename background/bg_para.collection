@@ -65,7 +65,7 @@ embedded_instances {
   data: "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/background/background_para.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/background/background_para_2.atlas\\\"\\n"
   "default_animation: \\\"bg_para_2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"

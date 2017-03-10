@@ -1,0 +1,28 @@
+animations {
+  id: "golden_cat_anim"
+  images {
+    image: "/enemies/png_alpha_enemies/golden_cat/golden_cat_001.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/golden_cat/golden_cat_002.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/golden_cat/golden_cat_003.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/golden_cat/golden_cat_004.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/golden_cat/golden_cat_005.png"
+  }
+  images {
+    image: "/enemies/png_alpha_enemies/golden_cat/golden_cat_006.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 8
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 1
+inner_padding: 0

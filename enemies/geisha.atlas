@@ -1,0 +1,28 @@
+animations {
+  id: "geisha_anim"
+  images {
+    image: "/enemies/png_beta_enemies/geisha_anim/geisha_001.png"
+  }
+  images {
+    image: "/enemies/png_beta_enemies/geisha_anim/geisha_002.png"
+  }
+  images {
+    image: "/enemies/png_beta_enemies/geisha_anim/geisha_003.png"
+  }
+  images {
+    image: "/enemies/png_beta_enemies/geisha_anim/geisha_004.png"
+  }
+  images {
+    image: "/enemies/png_beta_enemies/geisha_anim/geisha_005.png"
+  }
+  images {
+    image: "/enemies/png_beta_enemies/geisha_anim/geisha_006.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 6
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 1
+inner_padding: 0
