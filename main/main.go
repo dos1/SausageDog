@@ -29,12 +29,92 @@ components {
   }
 }
 embedded_components {
+  id: "cat"
+  type: "sound"
+  data: "sound: \"/sounds/sound_cat.ogg\"\n"
+  "looping: 1\n"
+  "group: \"master\"\n"
+  "gain: 0.07943282\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
+  id: "dragon"
+  type: "sound"
+  data: "sound: \"/sounds/roar1.ogg\"\n"
+  "looping: 0\n"
+  "group: \"master\"\n"
+  "gain: 0.1\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
+  id: "dragon_big"
+  type: "sound"
+  data: "sound: \"/sounds/roar2.ogg\"\n"
+  "looping: 0\n"
+  "group: \"master\"\n"
+  "gain: 0.14125375\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
   id: "dying_dog"
   type: "sound"
   data: "sound: \"/sounds/sound_dying_dog.ogg\"\n"
   "looping: 0\n"
   "group: \"master\"\n"
   "gain: 1.0\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
+  id: "geisha"
+  type: "sound"
+  data: "sound: \"/sounds/sound_geisha.ogg\"\n"
+  "looping: 1\n"
+  "group: \"master\"\n"
+  "gain: 0.15848932\n"
   ""
   position {
     x: 0.0
@@ -115,6 +195,26 @@ embedded_components {
   "looping: 0\n"
   "group: \"master\"\n"
   "gain: 1.0\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
+  id: "sumo"
+  type: "sound"
+  data: "sound: \"/sounds/sound_sumo.ogg\"\n"
+  "looping: 1\n"
+  "group: \"master\"\n"
+  "gain: 0.25118864\n"
   ""
   position {
     x: 0.0
