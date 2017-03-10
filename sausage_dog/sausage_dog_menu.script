@@ -6,7 +6,7 @@ local tracks = 4
 function init(self)
 
 	-- start playing the background music
-  	msg.post("#dog_sound","play_sound")
+  	-- msg.post("#dog_sound","play_sound")
 	
 	-- Animate the ship so it's swaying back and forth
 	go.set(".", "euler.z", -5)

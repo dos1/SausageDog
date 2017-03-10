@@ -120,7 +120,7 @@ instances {
   }
 }
 collection_instances {
-  id: "arrows1"
+  id: "arrows"
   collection: "/main/arrows.collection"
   position {
     x: 440.3607
