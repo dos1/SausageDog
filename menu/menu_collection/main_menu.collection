@@ -1,4 +1,4 @@
-name: "default"
+name: "mainmenu"
 instances {
   id: "bg_alpha_scroll_menu"
   prototype: "/background/bg_alpha_scroll_menu.go"

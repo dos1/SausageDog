@@ -109,6 +109,26 @@ embedded_components {
   }
 }
 embedded_components {
+  id: "gameover_music"
+  type: "sound"
+  data: "sound: \"/music/gameover_music.ogg\"\n"
+  "looping: 1\n"
+  "group: \"master\"\n"
+  "gain: 1.0\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+}
+embedded_components {
   id: "geisha"
   type: "sound"
   data: "sound: \"/sounds/sound_geisha.ogg\"\n"

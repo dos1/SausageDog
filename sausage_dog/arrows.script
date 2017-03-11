@@ -5,7 +5,11 @@ function on_message(self, message_id, message, sender)
 		go.set("#sprite", "tint.w", 1)
 	
 		go.animate("#sprite", "tint.w", go.PLAYBACK_ONCE_FORWARD, 0, go.EASING_OUTSINE, 0.15, 2.5 , function () 
-			GAME_STARTED = true			
+			GAME_STARTED = true	
+						msg.post("/sausage_dog", "stop")
+			
+						msg.post("/sausage_dog", "start")
+					
 		end)
 	end
 end

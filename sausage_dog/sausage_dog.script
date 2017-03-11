@@ -90,6 +90,15 @@ function on_message(self, message_id, message, sender)
 	end)
 	end)
 end
+
+	if message_id == hash("start") then
+	  	msg.post("#dog_sound","play_sound")
+	  	msg.post("#dog_run_sound","play_sound")
+	end
+	if message_id == hash("stop") then
+	  	msg.post("#dog_sound","stop_sound")
+	  	msg.post("#dog_run_sound","stop_sound")
+	end
 end
 	
 

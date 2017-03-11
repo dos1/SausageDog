@@ -1,11 +1,11 @@
-name: "default"
+name: "gameover"
 instances {
   id: "gameover_menu"
   prototype: "/menu/gameover_menu.go"
   position {
     x: 0.0
     y: 0.0
-    z: 0.0
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -46,7 +46,7 @@ embedded_instances {
   position {
     x: 733.0719
     y: 828.447
-    z: -0.025
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -61,63 +61,8 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "gameover_music"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/menu/gamevoer_music.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"dead\"\n"
-  "  type: \"sound\"\n"
-  "  data: \"sound: \\\"/sounds/sound_dying_dog.ogg\\\"\\n"
-  "looping: 0\\n"
-  "group: \\\"master\\\"\\n"
-  "gain: 1.0\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"music\"\n"
-  "  type: \"sound\"\n"
-  "  data: \"sound: \\\"/music/gameover_music.ogg\\\"\\n"
-  "looping: 1\\n"
-  "group: \\\"master\\\"\\n"
-  "gain: 1.0\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
+  id: "go"
+  data: ""
   position {
     x: 951.9164
     y: 527.7583
@@ -161,7 +106,7 @@ embedded_instances {
   position {
     x: 553.2961
     y: 436.055
-    z: -0.025
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -201,7 +146,7 @@ embedded_instances {
   position {
     x: 868.66296
     y: 751.4218
-    z: -0.025
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -241,7 +186,7 @@ embedded_instances {
   position {
     x: 535.8725
     y: 587.64014
-    z: -0.025
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -281,7 +226,7 @@ embedded_instances {
   position {
     x: 767.60614
     y: 436.055
-    z: -0.025
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -321,7 +266,7 @@ embedded_instances {
   position {
     x: 365.12137
     y: 587.64014
-    z: -0.025
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -361,7 +306,7 @@ embedded_instances {
   position {
     x: 335.50128
     y: 437.79733
-    z: -0.025
+    z: 1.0
   }
   rotation {
     x: 0.0

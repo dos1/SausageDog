@@ -8,6 +8,8 @@ function init(self)
 	self.highscore = -1
 	self.highscore_node = gui.get_node("highscore1")
 	self.highscore_node2 = gui.get_node("highscore2")
+	self.highscore_node3 = gui.get_node("highscore3")
+	self.score_node3 = gui.get_node("score3")
 	print(sys.load(save_file)[1] == nil)
 	if sys.load(save_file)[1] == nil then
 		self.highscore = 0
@@ -17,6 +19,7 @@ function init(self)
 	gui.set_text(self.highscore_node, tostring(self.highscore))
 	gui.set_text(self.highscore_node2, tostring(self.highscore))
 	gui.set_enabled(gui.get_node("box"), false)
+	gui.set_enabled(gui.get_node("gameover"), false)
 end
 
 local function scale_down(self, node)
@@ -29,6 +32,7 @@ function on_message(self, message_id, message, sender)
 		local s = 1.2
 		self.score = message[1]
 		gui.set_text(self.score_node, tostring(self.score))
+		gui.set_text(self.score_node3, tostring(self.score))
 		gui.animate(self.score_node, gui.PROP_SCALE, vmath.vector4(s, s, s, 0), gui.EASING_OUT, 0.1, 0.0, scale_down)
 		if self.score >= self.highscore then
 			gui.set_text(self.highscore_node, tostring(self.score))
@@ -49,19 +53,22 @@ function on_message(self, message_id, message, sender)
 		self.highscore = message[1]
 		gui.set_text(self.highscore_node, tostring(self.highscore))
 		gui.set_text(self.highscore_node2, tostring(self.highscore))
+		gui.set_text(self.highscore_node3, tostring(self.highscore))
 		gui.animate(self.highscore_node, gui.PROP_SCALE, vmath.vector4(s, s, s, 0), gui.EASING_OUT, 0.1, 0.0, scale_down)
 	end
 	if message_id == hash("show") then
 		gui.set_enabled(gui.get_node("box"), true)
 		gui.set_enabled(gui.get_node("highscore2"), false)
+		gui.set_enabled(gui.get_node("gameover"), false)
 	end
 	if message_id == hash("hide") then
 		gui.cancel_animation(self.highscore_node, gui.PROP_SCALE)
 		gui.set_color(self.highscore_node, vmath.vector4(1,1,1,1))		
 		
 		gui.set_enabled(gui.get_node("box"), false)
-		gui.set_enabled(gui.get_node("highscore2"), true)
-		gui.set_text(self.highscore_node2, tostring(self.highscore))
+		gui.set_enabled(gui.get_node("gameover"), true)
+		gui.set_text(self.highscore_node3, tostring(self.highscore))
+		gui.set_text(self.score_node3, tostring(self.score))
 	end
 	
 end
