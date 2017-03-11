@@ -3,12 +3,12 @@ local speed = 135
 function init(self)
 	self.colided = false
 	msg.post("/main", "enemy_added", {})
-	-- msg.post("#sumo","play_sound")
+	msg.post("#sumo","play_sound")
 end
 
 function final(self)
 	msg.post("/main", "enemy_removed", {})
-	-- msg.post("#sumo","stop_sound")
+	msg.post("#sumo","stop_sound")
 end
 
 function update(self, dt)
