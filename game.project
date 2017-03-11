@@ -1,6 +1,6 @@
 [project]
 title = Sausage Dog Run
-version = 0.9
+version = 1.0
 
 [bootstrap]
 main_collection = /main/main.collectionc
@@ -36,5 +36,5 @@ app_icon_72x72 = /icons/sausage_icon_72.png
 app_icon_96x96 = /icons/sausage_icon_96.png
 app_icon_144x144 = /icons/sausage_icon_144.png
 app_icon_192x192 = /icons/sausage_icon_192.png
-version_code = 3
+version_code = 4
 
