@@ -8,10 +8,11 @@ GOD_MODE = false
 
 GLOBAL_SPEED = START_SPEED
 
-local save_file = sys.get_save_file("my_game", "gamedata")
+local save_file = sys.get_save_file("sausagedog", "gamedata")
 
 function init(self)
 	-- set blue background
+	print(save_file);
     msg.post("@render:", "clear_color", { color = vmath.vector4(0.52, 0.80, 1, 0) } )
 	msg.post(".", "acquire_input_focus") 
 	self.enemies = {}
@@ -84,6 +85,11 @@ function on_message(self, message_id, message, sender)
 		GAME_STARTED = false
 		msg.post("/view_factory#mainmenuproxy", "enable", {})
 		msg.post("#gui", "hide", {})
+		if self.score > self.highscore then
+			sys.save(save_file, {self.score})
+			msg.post("#gui", "update_highscore", {self.score})
+			self.highscore = self.score
+		end
 		IN_MENU = true
 	end
 	
@@ -97,11 +103,6 @@ function on_message(self, message_id, message, sender)
 		msg.post("#main_music_speed1","play_sound", {delay = 2})
   		msg.post("#main_music_speed5","play_sound", {delay = 156}) 
   		IN_MENU = false
-		if self.score > self.highscore then
-			sys.save(save_file, {self.score})
-			msg.post("#gui", "update_highscore", {self.score})
-			self.highscore = self.score
-		end
 		go.delete_all(self.enemies)
 		self.enemies = {}
 			msg.post("/factory_minilevels", "restart", {})

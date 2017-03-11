@@ -1,4 +1,4 @@
-local save_file = sys.get_save_file("my_game", "gamedata")
+local save_file = sys.get_save_file("sausagedog", "gamedata")
 
 function init(self)
 	self.score = -1
@@ -30,6 +30,13 @@ function on_message(self, message_id, message, sender)
 		self.score = message[1]
 		gui.set_text(self.score_node, tostring(self.score))
 		gui.animate(self.score_node, gui.PROP_SCALE, vmath.vector4(s, s, s, 0), gui.EASING_OUT, 0.1, 0.0, scale_down)
+		if self.score >= self.highscore then
+			gui.set_text(self.highscore_node, tostring(self.score))
+		end
+		if self.score == self.highscore + 1 then
+			gui.set_color(self.highscore_node, vmath.vector4(1,0.5,0.5,1))
+			gui.animate(self.highscore_node, gui.PROP_SCALE, vmath.vector3(2, 2, 1), gui.EASING_INOUTQUAD, 1, 0.0, nil, gui.PLAYBACK_LOOP_PINGPONG)
+		end
 	end
 	if message_id == hash("update_lifes") then
 		local s = 1.2
@@ -38,6 +45,7 @@ function on_message(self, message_id, message, sender)
 		gui.animate(self.lifes_node, gui.PROP_SCALE, vmath.vector4(s, s, s, 0), gui.EASING_OUT, 0.1, 0.0, scale_down)
 	end
 	if message_id == hash("update_highscore") then
+		local s = 1.2
 		self.highscore = message[1]
 		gui.set_text(self.highscore_node, tostring(self.highscore))
 		gui.set_text(self.highscore_node2, tostring(self.highscore))
@@ -48,6 +56,9 @@ function on_message(self, message_id, message, sender)
 		gui.set_enabled(gui.get_node("highscore2"), false)
 	end
 	if message_id == hash("hide") then
+		gui.cancel_animation(self.highscore_node, gui.PROP_SCALE)
+		gui.set_color(self.highscore_node, vmath.vector4(1,1,1,1))		
+		
 		gui.set_enabled(gui.get_node("box"), false)
 		gui.set_enabled(gui.get_node("highscore2"), true)
 		gui.set_text(self.highscore_node2, tostring(self.highscore))
