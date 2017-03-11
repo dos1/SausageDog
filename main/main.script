@@ -100,6 +100,7 @@ function on_message(self, message_id, message, sender)
 		if self.score > self.highscore then
 			sys.save(save_file, {self.score})
 			msg.post("#gui", "update_highscore", {self.score})
+			self.highscore = self.score
 		end
 		go.delete_all(self.enemies)
 		self.enemies = {}
