@@ -83,12 +83,12 @@ function on_message(self, message_id, message, sender)
 		self.enemies = {}
 		GAME_STARTED = false
 		msg.post("/view_factory#mainmenuproxy", "enable", {})
-		msg.post("#gui", "disable", {})
+		msg.post("#gui", "hide", {})
 		IN_MENU = true
 	end
 	
 	if message_id == hash("restart") then
-		msg.post("#gui", "enable", {})
+		msg.post("#gui", "show", {})
 		msg.post("/view_factory#mainmenuproxy", "disable", {})
 		--msg.post("/view_factory#mainmenuproxy", "unload", {})
 		msg.post("#menu_music","stop_sound")

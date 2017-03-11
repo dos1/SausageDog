@@ -43,11 +43,11 @@ function on_message(self, message_id, message, sender)
 		gui.set_text(self.highscore_node2, tostring(self.highscore))
 		gui.animate(self.highscore_node, gui.PROP_SCALE, vmath.vector4(s, s, s, 0), gui.EASING_OUT, 0.1, 0.0, scale_down)
 	end
-	if message_id == hash("enable") then
+	if message_id == hash("show") then
 		gui.set_enabled(gui.get_node("box"), true)
 		gui.set_enabled(gui.get_node("highscore2"), false)
 	end
-	if message_id == hash("disable") then
+	if message_id == hash("hide") then
 		gui.set_enabled(gui.get_node("box"), false)
 		gui.set_enabled(gui.get_node("highscore2"), true)
 	end
